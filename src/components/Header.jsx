@@ -1,11 +1,20 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import logo from '../assets/header/logo.png';
 import facebookIcon from '../assets/header/facebook-icon.png';
 import instagramIcon from '../assets/header/instagram-icon.png';
 import tiktokIcon from '../assets/header/tiktok-icon.png';
+import FacebookIconBlack from '../assets/header/facebook-icon-black.png';
+import InstagramIconBlack from '../assets/header/instagram-icon-black.png';
+import TiktokIconBlack from '../assets/header/tiktok-icon-black.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const location = useLocation();
+
+  // Define pages that should have black icons
+  const blackIconPages = ['/product', '/about-us', '/contact'];
+  const useBlackIcons = blackIconPages.includes(location.pathname);
 
   return (
     <header className="absolute top-0 left-0 w-full z-20 py-6">
@@ -32,12 +41,12 @@ const Header = () => {
 
           {/* Dropdown Menu */}
           {isMenuOpen && (
-            <div className="absolute top-full left-0 mt-4 w-48 bg-black/60 backdrop-blur-md rounded-lg p-8 shadow-2xl flex flex-col items-start gap-5 z-30">
-              <a href="#" className="text-white hover:text-red-500 transition-colors text-xl font-medium">Home</a>
-              <a href="#" className="text-white hover:text-red-500 transition-colors text-xl font-medium">Product</a>
-              <a href="#" className="text-white hover:text-red-500 transition-colors text-xl font-medium">Catalog</a>
-              <a href="#" className="text-white hover:text-red-500 transition-colors text-xl font-medium">About Us</a>
-              <a href="#" className="text-white hover:text-red-500 transition-colors text-xl font-medium">Contact Us</a>
+            <div className="absolute top-full left-0 mt-4 w-55 bg-black/50 backdrop-blur-md rounded-lg p-8 shadow-2xl flex flex-col items-start gap-7 z-30">
+              <a href="/" className="text-white hover:text-red-500 transition-colors text-3xl font-medium">Home</a>
+              <a href="/product" className="text-white hover:text-red-500 transition-colors text-3xl font-medium">Product</a>
+              <a href="/catalog" className="text-white hover:text-red-500 transition-colors text-3xl font-medium">Catalog</a>
+              <a href="/about-us" className="text-white hover:text-red-500 transition-colors text-3xl font-medium">About Us</a>
+              <a href="/contact" className="text-white hover:text-red-500 transition-colors text-3xl font-medium">Contact Us</a>
             </div>
           )}
         </div>
@@ -46,9 +55,15 @@ const Header = () => {
         <div className="flex items-center gap-6">
           {/* Social Icons */}
           <div className="hidden md:flex items-center gap-16">
-            <a href="https://www.instagram.com/himmel.hpl/?hl=en" className="hover:opacity-80 transition-opacity"><img src={instagramIcon} alt="Instagram" className="w-6" /></a>
-            <a href="https://www.facebook.com/himmel.hpl/" className="hover:opacity-80 transition-opacity"><img src={facebookIcon} alt="Facebook" className="w-3" /></a>
-            <a href="https://www.tiktok.com/@himmelhpl" className="hover:opacity-80 transition-opacity"><img src={tiktokIcon} alt="TikTok" className="w-5" /></a>
+            <a href="https://www.instagram.com/himmel.hpl/?hl=en" className="hover:opacity-80 transition-opacity">
+                <img src={useBlackIcons ? InstagramIconBlack : instagramIcon} alt="Instagram" className="w-6" />
+            </a>
+            <a href="https://www.facebook.com/himmel.hpl/" className="hover:opacity-80 transition-opacity">
+                <img src={useBlackIcons ? FacebookIconBlack : facebookIcon} alt="Facebook" className="w-3" />
+            </a>
+            <a href="https://www.tiktok.com/@himmelhpl" className="hover:opacity-80 transition-opacity">
+                <img src={useBlackIcons ? TiktokIconBlack : tiktokIcon} alt="TikTok" className="w-5" />
+            </a>
           </div>
         </div>
       </div>

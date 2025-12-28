@@ -7,5 +7,14 @@
   --font-primary: 'Outfit', sans-serif;
   --font-secondary: 'Playfair Display', serif;
 
+  --color-primary: #E61E26;
   --color-third: #E8E2DB;
+}
+
+@utility no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }

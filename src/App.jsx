@@ -6,14 +6,22 @@ import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import floatingWhatsapp from "./assets/floating-whatsapp.png";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="relative min-h-screen">
-      <Header />
-      {/* <Home /> */}
-      <Product />
-      <Footer />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/catalog" element={<Catalog />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </Router>
       
       {/* Floating WhatsApp Button */}
       <a 
