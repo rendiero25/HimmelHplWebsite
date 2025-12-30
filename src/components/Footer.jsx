@@ -13,7 +13,7 @@ const Footer = () => {
         <img src={bgShadow1} alt="" className="absolute -top-20 -left-20 max-w-none" />
       </div>
 
-      <div className="relative container mx-auto px-6 md:px-0 z-10">
+      <div className="relative container mx-auto px-6 xl:px-0 z-10">
         <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-20">
           
           {/* Left Call to Action */}

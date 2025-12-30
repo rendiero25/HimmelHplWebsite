@@ -107,12 +107,12 @@ const Product = () => {
     };
 
     return (
-        <div className="pt-24 min-h-screen bg-[#F5F1EA] font-primary relative">
+        <div className="pt-10 md:pt-24 min-h-screen bg-gradient-to-b from-white via-third to-third font-primary relative">
             
             {/* Header Text */}
             <div className="text-center py-10 px-4">
                 <p className="text-sm tracking-[0.2em] text-black/50 uppercase mb-4">Produk Kami</p>
-                <h1 className="font-secondary text-5xl md:text-6xl text-gray-900">Elegance Awaits You</h1>
+                <h1 className="font-secondary text-4xl md:text-6xl text-gray-900">Elegance Awaits You</h1>
             </div>
 
             {/* Category Tabs */}
@@ -135,9 +135,9 @@ const Product = () => {
 
             {/* Title & Search */}
             <div className="container mx-auto px-6 md:px-0 mb-8 md:mb-12 flex flex-col justify-between items-end gap-6 md:gap-12">
-                <div className="w-full flex flex-col md:flex-row justify-between items-end">
-                    <h2 className="md:max-w-lg font-medium text-3xl md:text-7xl leading-tight">{formatCategoryTitle(selectedCategory)}</h2>
-                    <p className="text-black text-xl leading-relaxed max-w-3xl">
+                <div className="w-full flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
+                    <h2 className="md:max-w-lg font-medium text-4xl md:text-7xl leading-tight">{formatCategoryTitle(selectedCategory)}</h2>
+                    <p className="text-black text-lg md:text-xl leading-relaxed max-w-3xl">
                         {getCategoryDescription(selectedCategory)}
                     </p>
                 </div>
@@ -184,15 +184,8 @@ const Product = () => {
 
             {/* Pagination */}
             {totalPages > 1 && (
-                <div className="flex justify-center items-center gap-4 mb-20 text-xs font-medium">
-                   <button 
-                     onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
-                     disabled={currentPage === 1}
-                     className="disabled:opacity-30 hover:text-gray-600"
-                   >
-                     PREV
-                   </button>
-                   <div className="flex gap-2">
+                <div className="flex flex-col justify-center items-center gap-10 mb-20 text-xs font-medium"> 
+                   <div className="flex flex-wrap items-center justify-center gap-5 md:gap-2 mx-4">
                      {Array.from({length: totalPages}, (_, i) => i + 1).map(page => (
                         <button
                             key={page}
@@ -203,13 +196,25 @@ const Product = () => {
                         </button>
                      ))}
                    </div>
-                   <button 
-                     onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
-                     disabled={currentPage === totalPages}
-                     className="disabled:opacity-30 hover:text-gray-600"
-                   >
-                     NEXT
-                   </button>
+
+                   <div className="flex gap-8">
+                        <button 
+                        onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                        disabled={currentPage === 1}
+                        className="disabled:opacity-30 hover:text-gray-600 ml-6 md:ml-0"
+                    >
+                        PREV
+                    </button>
+
+                    <button 
+                        onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                        disabled={currentPage === totalPages}
+                        className="disabled:opacity-30 hover:text-gray-600 mr-6 md:mr-0"
+                    >
+                        NEXT
+                    </button>
+                   </div>
+                   
                 </div>
             )}
 
@@ -232,7 +237,7 @@ const Product = () => {
                 <div className="container mx-auto px-6 md:px-0 relative z-10 w-full flex flex-col md:flex-row justify-between items-center md:items-end gap-8 text-white h-full pt-40 md:pt-0">
                     <div className="max-w-xl">
                         <p className="text-md tracking-widest mb-3 text-center md:text-left">Tingkatkan Pengalaman Hidup Anda</p>
-                        <h2 className="font-primary text-5xl md:text-7xl leading-tight font-medium text-center md:text-left">
+                        <h2 className="font-primary text-4xl md:text-7xl leading-tight font-medium text-center md:text-left">
                             We design <br />
                             the places <br />
                             where people <br />
@@ -284,12 +289,12 @@ const Product = () => {
                             <img 
                                 src={selectedProduct['image-produk']} 
                                 alt={selectedProduct['nama-produk']} 
-                                className="w-full h-full object-contain max-h-[500px]"
+                                className="w-full h-full object-cover max-h-[500px]"
                             />
                         </div>
 
                         {/* Details Section */}
-                        <div className="w-full md:w-1/2 flex flex-col justify-center text-left py-4">
+                        <div className="w-full md:w-1/2 flex flex-col justify-center text-left py-4 px-4 md:px-0">
                             <span className="text-xs uppercase tracking-widest text-gray-500 mb-2">{formatCategoryTitle(selectedCategory)}</span>
                             <h2 className="text-3xl md:text-5xl font-secondary text-gray-900 mb-6 leading-tight">
                                 {selectedProduct['nama-produk'].replace(/.jpg$/i, '')}

@@ -62,17 +62,17 @@ const Home = () => {
       
       {/* --- HERO SECTION --- */}
       {/* --- HERO SECTION --- */}
-      <section className="relative h-screen min-h-[600px] bg-gradient-to-br from-white to-third flex items-center overflow-hidden">
+      <section className="relative md:h-screen md:min-h-[600px] bg-gradient-to-br from-white to-third flex items-center overflow-hidden">
         
         {/* Container for Left Content */}
-        <div className="container mx-auto px-6 md:px-0 h-full flex items-center relative z-10 pointer-events-none xl:pt-20">
+        <div className="container mx-auto px-6 xl:px-0 h-full flex items-start md:items-center relative z-10 pointer-events-none xl:pt-20 mb-[29rem] md:mb-0">
            
-           <div className="w-full md:w-1/2 pointer-events-auto h-full flex flex-col justify-center relative">
+           <div className="w-full md:w-1/2 pointer-events-auto h-1/2 md:h-full flex flex-col justify-center relative pt-20 md:pt-0">
              {/* Vertical Line - Inside Wrapper now, relative to this column */}
              <div className="absolute left-[37%] top-0 bottom-0 w-[2px] bg-gradient-to-b from-third/0 to-third hidden md:block"></div>
              
              {/* Top Right Intro Text */}
-             <div className="hidden md:flex flex-col absolute top-0 left-[52%]">
+             <div className="hidden xl:flex flex-col absolute top-0 left-[52%]">
                 <h3 className="font-primary font-medium text-black text-3xl leading-tight mb-4">
                   Your <br/>
                   Partner In <br/>
@@ -84,20 +84,20 @@ const Home = () => {
                 </a>
              </div>
 
-             <h1 className="md:mt-30 font-secondary text-black font-medium text-5xl md:text-8xl mb-8 leading-tight relative z-10 mix-blend-multiply">
+             <h1 className="md:mt-30 font-secondary text-black font-medium text-5xl md:text-6xl lg:text-7xl mb-8 leading-[1.1] relative z-10 mix-blend-multiply">
                Himmel.<br />
                Designed for <br />
                quality life
              </h1>
              
-             <div className="flex gap-18 text-sm md:text-xs font-reguler tracking-wide uppercase pt-12 max-w-xl">
+             <div className="flex flex-col xl:flex-row gap-18 text-sm md:text-xs font-reguler tracking-wide uppercase md:pt-12 max-w-xl">
                 <div className="w-[50%] flex flex-row justify-between items-start gap-2 border-t border-black pt-4">
                    <span className='text-black text-lg'>01</span>
-                   <span className="text-black text-lg text-right leading-relaxed normal-case block">Contact us immediately to ask something</span>
+                   <span className="text-black text-lg md:text-right leading-relaxed normal-case block">Contact us immediately to ask something</span>
                 </div>
                 <div className="w-[50%] flex flex-row justify-between items-start gap-2 border-t border-black pt-4">
                    <span className='text-black text-lg'>02</span>
-                   <span className="text-black text-lg text-right leading-relaxed normal-case block">Our collection in interior development</span>
+                   <span className="text-black text-lg md:text-right leading-relaxed normal-case block">Our collection in interior development</span>
                 </div>
              </div>
 
@@ -115,7 +115,7 @@ const Home = () => {
         </div>
 
         {/* Right Slideshow - Absolute Position */}
-        <div className="absolute top-0 right-0 w-full md:w-1/2 h-1/2 md:h-full z-0">
+        <div className="absolute bottom-0 md:top-0 right-0 w-full md:w-1/2 h-1/2 md:h-full z-0">
            {slides.map((slide, index) => (
              <div 
                key={index}
@@ -140,8 +140,8 @@ const Home = () => {
          <div className="absolute inset-0">
             <img src={section2Image} alt="About Himmel" className="w-full h-full object-cover"/>
          </div>
-         <div className="container mx-auto px-6 md:px-0 relative z-10 h-full text-white">
-            <p className="font-primary text-2xl md:text-3xl leading-relaxed opacity-90 max-w-4xl">
+         <div className="container mx-auto px-6 xl:px-0 relative z-10 h-full text-white">
+            <p className="font-primary text-xl md:text-3xl leading-relaxed opacity-90 max-w-4xl">
                <span className='font-bold'>Himmel </span>is a leading provider of interior solutions. <br /> 
                     As one of Indonesia’s largest High Pressure Laminates (HPL) brand, 
                     our continuous investments in innovation and operation maintain 
@@ -159,7 +159,7 @@ const Home = () => {
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
          
          {/* 1. Daftar Produk (Red) */}
-         <div className="relative group  overflow-hidden bg-red-600 h-150 flex items-center justify-center p-8 text-center text-white">
+         <div className="relative group overflow-hidden bg-red-600 h-100 md:h-150 flex items-center justify-center p-8 text-center text-white">
             <img src={daftarProdukImg} alt="Daftar Produk" className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-110 transition-transform duration-700" />
             <div className="relative z-10">
                <h3 className="text-5xl leading-tight">Daftar<br/>Produk</h3>
@@ -167,10 +167,10 @@ const Home = () => {
          </div>
 
          {/* 2. High Pressure Laminate */}
-         <div className="relative group overflow-hidden h-150 cursor-pointer">
+         <div className="relative group overflow-hidden h-100 md:h-150 cursor-pointer">
             <img src={hplImg} alt="HPL" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-            <div className="px-6 md:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+            <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
                <h3 className="font-bold text-3xl mb-2 leading-relaxed">High Pressure<br/>Laminate (HPL)</h3>
                <p className="text-md max-w-sm leading-relaxed">Bahan pelapis yang digunakan lapisan 
                   teratas atau finishing pada furnitur kayu,
@@ -180,10 +180,10 @@ const Home = () => {
          </div>
 
          {/* 3. PVC Board */}
-         <div className="relative group overflow-hidden h-150 cursor-pointer">
+         <div className="relative group overflow-hidden h-100 md:h-150 cursor-pointer">
             <img src={pvcBoardImg} alt="PVC Board" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-            <div className="px-6 md:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+            <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
                <h3 className="font-bold text-3xl mb-2 leading-relaxed">PVC Board</h3>
                <p className="text-md max-w-sm leading-relaxed">Produk material yang dihasilkan melalui
                   pemrosesan dengan menggunakan mesin
@@ -192,10 +192,10 @@ const Home = () => {
          </div>
 
          {/* 4. WPC Pool Deck */}
-         <div className="relative group overflow-hidden h-150 cursor-pointer">
+         <div className="relative group overflow-hidden h-100 md:h-150 cursor-pointer">
             <img src={wpcPoolDeckImg} alt="WPC Pool Deck" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-            <div className="px-6 md:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+            <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
                <h3 className="font-bold text-3xl mb-2 leading-relaxed">WPC Pool Deck</h3>
                <p className="text-md max-w-sm leading-relaxed">Inovasi baru yang menjadi solusi ideal
                   pengganti solid wood decking</p>
@@ -203,10 +203,10 @@ const Home = () => {
          </div>
 
          {/* 5. SPC Flooring */}
-         <div className="relative group overflow-hidden h-150 cursor-pointer">
+         <div className="relative group overflow-hidden h-100 md:h-150 cursor-pointer">
             <img src={spcFlooringImg} alt="SPC Flooring" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-            <div className="px-6 md:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+            <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
                <h3 className="font-bold text-3xl mb-2 leading-relaxed">SPC Flooring</h3>
                <p className="text-md max-w-sm leading-relaxed">Tipe material lantai, berbahan utama
                   stone polymer composite (SPC) </p>
@@ -214,10 +214,10 @@ const Home = () => {
          </div>
 
          {/* 6. Vinyl Flooring */}
-         <div className="relative group overflow-hidden h-150 cursor-pointer">
+         <div className="relative group overflow-hidden h-100 md:h-150 cursor-pointer">
              <img src={vinylFlooringImg} alt="Vinyl Flooring" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-             <div className="px-6 md:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+             <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
                <h3 className="font-bold text-3xl mb-2 leading-relaxed">Vinyl Flooring</h3>
                <p className="text-md max-w-sm leading-relaxed">Jenis lantai yang terbuat dari plastik polivinyl 
                 klorida (PVC) yang dicampur dengan bahan-bahan lain seperti plastikizer, pigmen, dan stablizer</p>
@@ -225,10 +225,10 @@ const Home = () => {
          </div>
 
           {/* 7. Edging PVC */}
-          <div className="relative group overflow-hidden h-150 cursor-pointer">
+          <div className="relative group overflow-hidden h-100 md:h-150 cursor-pointer">
              <img src={edgingPvcImg} alt="Edging PVC" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-             <div className="absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+             <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
                <h3 className="font-bold text-3xl mb-2 leading-relaxed">Edging PVC</h3>
                <p className="text-md max-w-sm leading-relaxed">Salah satu produk pelapis sekaligus
                 pelindung sisi samping sebuah furnitur meja, lemari, maupun backdrop</p>
@@ -236,10 +236,10 @@ const Home = () => {
          </div>
 
           {/* 8. WPC Wall Panel */}
-          <div className="relative group overflow-hidden h-150 md:col-span-2 lg:col-span-2 cursor-pointer">
+          <div className="relative group overflow-hidden h-100 md:h-150 xl:col-span-2 lg:col-span-2 cursor-pointer">
              <img src={wpcWallPanelImg} alt="WPC Wall Panel" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-             <div className="px-6 md:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+             <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
                <h3 className="font-bold text-3xl mb-2 leading-relaxed">WPC Wall Panel</h3>
                <p className="text-md max-w-sm leading-relaxed">Salah satu produk pelapis sekaligus
                 pelindung sisi samping sebuah furnitur meja, lemari, maupun backdrop</p>
@@ -264,10 +264,10 @@ const Home = () => {
              <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent h-[90%] self-end"></div>
          </div>
          
-         <div className="container mx-auto px-6 md:px-0 relative z-10 w-full flex flex-col md:flex-row justify-between items-center md:items-end gap-8 text-white">
+         <div className="container mx-auto px-6 xl:px-0 relative z-10 w-full flex flex-col md:flex-row justify-between items-center md:items-end gap-8 text-white">
              <div className="max-w-xl h-full">
                  <p className="text-md tracking-widest mb-3 text-center md:text-left">Tingkatkan Pengalaman Hidup Anda</p>
-                 <h2 className="font-primary text-5xl md:text-7xl leading-tight font-medium text-center md:text-left">
+                 <h2 className="font-primary text-4xl md:text-7xl leading-tight font-medium text-center md:text-left">
                     We design <br />
                     the places <br />
                     where people <br />
