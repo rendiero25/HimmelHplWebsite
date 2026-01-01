@@ -1,7 +1,11 @@
 import React, { useState, useEffect, useMemo } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import productsData from '../data/products.json';
 import { flattenProducts } from '../utils/productUtils';
 import { BsChevronLeft, BsChevronRight, BsSearch } from 'react-icons/bs';
+import FadeIn from '../components/FadeIn';
+import StaggerContainer from '../components/StaggerContainer';
+import { motion } from 'motion/react';
 
 // Philosophy Images (Reuse from Home)
 import section3Image1 from '../assets/home/section3-image1.png';
@@ -13,10 +17,25 @@ import section3Image6 from '../assets/home/section3-image6.png';
 import section3Image7 from '../assets/home/section3-image7.png';
 
 const Product = () => {
-    const [selectedCategory, setSelectedCategory] = useState(productsData[0]?.['kategori-produk'] || 'hpl');
+    const [searchParams, setSearchParams] = useSearchParams();
+    const categoryFromUrl = searchParams.get('category');
+    const [selectedCategory, setSelectedCategory] = useState(categoryFromUrl || productsData[0]?.['kategori-produk'] || 'hpl');
     const [searchQuery, setSearchQuery] = useState('');
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 30;
+
+    // Sync selectedCategory when categoryFromUrl changes
+    useEffect(() => {
+        if (categoryFromUrl && categoryFromUrl !== selectedCategory) {
+            setSelectedCategory(categoryFromUrl);
+        }
+    }, [categoryFromUrl]);
+
+    // Update URL when category changes
+    const handleCategoryChange = (slug) => {
+        setSelectedCategory(slug);
+        setSearchParams({ category: slug });
+    };
 
     // Philosophy Slider State
     const [currentPhilosophySlide, setCurrentPhilosophySlide] = useState(0);
@@ -110,18 +129,18 @@ const Product = () => {
         <div className="pt-10 md:pt-24 min-h-screen bg-gradient-to-b from-white via-third to-third font-primary relative">
             
             {/* Header Text */}
-            <div className="text-center py-10 px-4">
+            <FadeIn delay={0.2} direction="down" className="text-center py-10 px-4">
                 <p className="text-sm tracking-[0.2em] text-black/50 uppercase mb-4">Produk Kami</p>
                 <h1 className="font-secondary text-4xl md:text-6xl text-gray-900">Elegance Awaits You</h1>
-            </div>
+            </FadeIn>
 
             {/* Category Tabs */}
-            <div className="container mx-auto px-4 md:px-0 mb-12">
+            <div className="container mx-auto px-4 xl:px-16 3xl:px-0 mb-12">
                 <div className="flex flex-wrap justify-center gap-4">
                     {productsData.map((cat) => (
                         <button
                             key={cat['kategori-produk']}
-                            onClick={() => setSelectedCategory(cat['kategori-produk'])}
+                            onClick={() => handleCategoryChange(cat['kategori-produk'])}
                             className={`cursor-pointer  px-6 py-2 rounded-full border text-xs uppercase tracking-wider transition-all
                                 ${selectedCategory === cat['kategori-produk'] 
                                     ? 'bg-primary text-white font-semibold' 
@@ -134,7 +153,7 @@ const Product = () => {
             </div>
 
             {/* Title & Search */}
-            <div className="container mx-auto px-6 md:px-0 mb-8 md:mb-12 flex flex-col justify-between items-end gap-6 md:gap-12">
+            <FadeIn direction="up" className="container mx-auto px-6 xl:px-16 2xl:px-2 mb-8 md:mb-12 flex flex-col justify-between items-end gap-6 md:gap-12">
                 <div className="w-full flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
                     <h2 className="md:max-w-lg font-medium text-4xl md:text-7xl leading-tight">{formatCategoryTitle(selectedCategory)}</h2>
                     <p className="text-black text-lg md:text-xl leading-relaxed max-w-3xl">
@@ -143,43 +162,55 @@ const Product = () => {
                 </div>
                 
                 {/* Search Bar */}
-                <div className="w-full relative">
+                <div className="relative w-full mt-4 md:mt-0">
                     <input 
                         type="text" 
-                        placeholder="Search" 
+                        placeholder="Search product..." 
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="w-full pl-4 pr-10 py-2 rounded-full border border-gray-300 bg-white focus:outline-none focus:border-gray-500 text-sm"
+                        className="w-full bg-white rounded-full py-2 px-4 focus:outline-none placeholder-black/50 font-primary"
                     />
-                    <BsSearch className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 w-4 h-4" />
+                    <BsSearch className="absolute right-0 top-3 text-black/50 mr-4" />
                 </div>
-            </div>
+            </FadeIn>
 
             {/* Product Grid */}
-            <div className="container mx-auto px-6 md:px-0 mb-16">
-                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-8">
-                    {paginatedProducts.map((product, idx) => (
-                        <div key={idx} className="flex flex-col items-center cursor-pointer group" onClick={() => openModal(product)}>
-                            <div className="w-full aspect-[3/4] overflow-hidden mb-3 bg-gray-200 relative">
-                                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors z-10 transition-colors duration-300"></div>
-                                <img 
-                                    src={product['image-produk']} 
-                                    alt={product['nama-produk']} 
-                                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                                    loading="lazy"
-                                />
-                            </div>
-                            <h3 className="text-xs font-medium text-center uppercase tracking-wide px-2 group-hover:text-primary transition-colors">
-                                {product['nama-produk'].replace(/.jpg$/i, '')}
-                            </h3>
-                            <p className="text-[10px] text-gray-500 text-center">{product['kode-produk']}</p>
-                        </div>
-                    ))}
-                </div>
+            <div className="container mx-auto px-6 xl:px-16 2xl:px-2 mb-16">
+                <StaggerContainer key={selectedCategory + currentPage} className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-8">
+                    {paginatedProducts.map((product, idx) => {
+                        const itemVariants = {
+                            hidden: { opacity: 0, y: 20 },
+                            visible: { opacity: 1, y: 0, transition: { duration: 0.5 } }
+                        };
+                        
+                        return (
+                            <motion.div 
+                                key={idx} 
+                                variants={itemVariants}
+                                className="flex flex-col items-center cursor-pointer group" 
+                                onClick={() => openModal(product)}
+                            >
+                                <div className="w-full aspect-[3/4] overflow-hidden mb-3 bg-gray-200 relative">
+                                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors z-10 transition-colors duration-300"></div>
+                                    <img 
+                                        src={product['image-produk']} 
+                                        alt={product['nama-produk']} 
+                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                        loading="lazy"
+                                    />
+                                </div>
+                                <h3 className="text-xs font-medium text-center uppercase tracking-wide px-2 group-hover:text-primary transition-colors">
+                                    {product['nama-produk'].replace(/.jpg$/i, '')}
+                                </h3>
+                                <p className="text-[10px] text-gray-500 text-center">{product['kode-produk']}</p>
+                            </motion.div>
+                        );
+                    })}
                 
                 {filteredProducts.length === 0 && (
                     <div className="text-center py-20 text-gray-400">No products found.</div>
                 )}
+                </StaggerContainer>
             </div>
 
             {/* Pagination */}
@@ -190,7 +221,7 @@ const Product = () => {
                         <button
                             key={page}
                             onClick={() => setCurrentPage(page)}
-                            className={`w-6 h-6 flex items-center justify-center rounded-full ${currentPage === page ? 'bg-black text-white' : 'text-gray-500 hover:bg-gray-200'}`}
+                            className={`cursor-pointer w-6 h-6 flex items-center justify-center rounded-full ${currentPage === page ? 'bg-black text-white' : 'text-gray-500 hover:bg-gray-200'}`}
                         >
                             {page}
                         </button>
@@ -201,7 +232,7 @@ const Product = () => {
                         <button 
                         onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
                         disabled={currentPage === 1}
-                        className="disabled:opacity-30 hover:text-gray-600 ml-6 md:ml-0"
+                        className="cursor-pointer disabled:opacity-30 hover:text-gray-600 ml-6 md:ml-0"
                     >
                         PREV
                     </button>
@@ -209,7 +240,7 @@ const Product = () => {
                     <button 
                         onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
                         disabled={currentPage === totalPages}
-                        className="disabled:opacity-30 hover:text-gray-600 mr-6 md:mr-0"
+                        className="cursor-pointer disabled:opacity-30 hover:text-gray-600 mr-6 md:mr-0"
                     >
                         NEXT
                     </button>
@@ -234,8 +265,8 @@ const Product = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent h-1/2 self-end"></div>
                 </div>
                 
-                <div className="container mx-auto px-6 md:px-0 relative z-10 w-full flex flex-col md:flex-row justify-between items-center md:items-end gap-8 text-white h-full pt-40 md:pt-0">
-                    <div className="max-w-xl">
+                <div className="container mx-auto px-6 xl:px-16 2xl:px-2 relative z-10 w-full flex flex-col md:flex-row justify-between items-center md:items-end gap-8 text-white h-full pt-40 md:pt-0">
+                    <FadeIn delay={0.2} direction="up" className="max-w-xl">
                         <p className="text-md tracking-widest mb-3 text-center md:text-left">Tingkatkan Pengalaman Hidup Anda</p>
                         <h2 className="font-primary text-4xl md:text-7xl leading-tight font-medium text-center md:text-left">
                             We design <br />
@@ -244,7 +275,7 @@ const Product = () => {
                             love to be <br />
                             together.
                         </h2>
-                    </div>
+                    </FadeIn>
                     
                     <div className="flex md:self-end gap-4 mb-20 md:mb-4">
                         <button 

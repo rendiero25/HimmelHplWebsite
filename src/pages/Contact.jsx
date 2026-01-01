@@ -1,26 +1,27 @@
 import React from 'react';
 import { BsTelephone, BsWhatsapp, BsEnvelope } from 'react-icons/bs';
+import FadeIn from '../components/FadeIn';
 
 const Contact = () => {
     return (
         <div className="pt-10 md:pt-24 min-h-screen bg-gradient-to-b from-white via-third to-third font-primary text-gray-900 overflow-x-hidden">
             
             {/* 1. Main Content Section */}
-            <section className="container mx-auto px-6 md:px-0 pt-16 md:pt-24">
+            <section className="container mx-auto px-6 xl:px-16 2xl:px-2 pt-16 md:pt-24">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
                     
                     {/* Left Side: Text and Contact Details */}
                     <div className="space-y-12">
-                        <div className="space-y-6">
-                            <h1 className="text-5xl md:text-8xl font-medium leading-tight text-black tracking-tight">
+                        <FadeIn delay={0.2} direction="right" className="space-y-6">
+                            <h1 className="text-5xl md:text-9xl font-medium leading-tight text-black tracking-tight">
                                 Let's get <br className="hidden md:block"/> in touch
                             </h1>
                             <p className="text-xl md:text-3xl font-medium text-black">
                                 Don't be afraid to <br className="hidden md:block"/> say hello with us!
                             </p>
-                        </div>
+                        </FadeIn>
 
-                        <div className="space-y-8 md:pt-8">
+                        <FadeIn delay={0.4} direction="up" className="space-y-8 md:pt-8">
                             <div className="space-y-1">
                                 <p className="text-gray-500 text-md">Phone</p>
                                 <p className="text-lg font-medium text-black">021-2944-0077</p>
@@ -33,11 +34,11 @@ const Contact = () => {
                                 <p className="text-gray-500 text-md">Email</p>
                                 <p className="text-lg font-medium text-black">marketing@himmelhpl.com</p>
                             </div>
-                        </div>
+                        </FadeIn>
                     </div>
 
                     {/* Right Side: Description and Form */}
-                    <div className="flex flex-col justify-between gap-16 md:mt-35">
+                    <FadeIn delay={0.6} direction="left" className="flex flex-col justify-between gap-16 md:mt-35">
                         <div className="max-w-md md:max-w-sm ml-auto md:text-left">
                              <p className="text-black text-lg font-medium leading-rela">
                                 Great! we're excited to hear from you and let's start something special together. <br />call us for any inquery.
@@ -102,7 +103,7 @@ const Contact = () => {
                                 </button>
                             </form>
                         </div>
-                    </div>
+                    </FadeIn>
                 </div>
             </section>
 

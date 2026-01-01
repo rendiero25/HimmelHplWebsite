@@ -8,6 +8,7 @@
     overflow-x: hidden;
     width: 100%;
     position: relative;
+    scroll-behavior: smooth;
   }
 }
 
@@ -18,6 +19,13 @@
   --color-primary: #E61E26;
   --color-third: #E8E2DB;
   --color-black: #1e1e1e;
+
+  /* --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 96rem;
+  --breakpoint-3xl: 120rem; */
 }
 
 @utility no-scrollbar {

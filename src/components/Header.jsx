@@ -18,10 +18,12 @@ const Header = () => {
 
   return (
     <header className="absolute top-0 left-0 w-full z-20 py-6">
-      <div className="container mx-auto px-6 xl:px-0 flex flex-row justify-between items-center">
+      <div className="container mx-auto px-6 xl:px-16 2xl:px-2 flex flex-row justify-between items-center">
         {/* Logo */}
         <div className="flex flex-row justify-between items-center gap-10 relative">
-          <img src={logo} alt="Himmel Logo" className="h-8 md:h-10 object-contain z-30 relative" />
+          <a href="/">
+            <img src={logo} alt="Himmel Logo" className="h-8 md:h-10 object-contain z-30 relative" />
+          </a>
 
           {/* Hamburger Menu Button */}
           <button 

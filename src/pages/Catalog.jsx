@@ -1,6 +1,7 @@
 import CatalogCover from "../assets/catalog/catalogcover.png";
 import CatalogFile from "../assets/catalog/e-catalog.pdf";
 import CatalogBg from "../assets/catalog/catalogpagebg.png";
+import FadeIn from "../components/FadeIn";
 
 const Catalog = () => {
     return (
@@ -11,14 +12,14 @@ const Catalog = () => {
                 <div className="absolute inset-0 bg-black/40"></div> {/* Overlay for readability */}
             </div>
 
-            <div className="container mx-auto px-6 md:px-0 relative z-10 flex flex-col items-center md:items-start gap-12 md:gap-0">
+            <div className="container mx-auto px-6 xl:px-16 2xl:px-2 relative z-10 flex flex-col items-center md:items-start gap-12 md:gap-0">
                 {/* Catalog Cover */}
-                 <div className="w-full md:w-1/3 max-w-sm shrink-0">
+                 <FadeIn direction="right" delay={0.2} className="w-full md:w-1/3 max-w-sm shrink-0">
                     <img src={CatalogCover} alt="Himmel Catalog" className="w-full h-auto rounded-sm transform hover:scale-105 transition-transform duration-500" />
-                </div>
+                </FadeIn>
 
                 {/* Content */}
-                <div className="md:mt-10 w-full md:w-2/3 text-white text-center md:text-left">
+                <FadeIn direction="up" delay={0.4} className="md:mt-10 w-full md:w-2/3 text-white text-center md:text-left">
                      <p className="text-lg md:text-xl font-regular leading-relaxed mb-12 opacity-90 max-w-2xl">
                         They are nature while adding so much more. <br className="hidden md:block"/>
                         The collection streches beyond traditional <br className="hidden md:block"/>
@@ -36,7 +37,7 @@ const Catalog = () => {
                             Download
                         </a>
                     </div>
-                </div>
+                </FadeIn>
             </div>
         </div>
     );

@@ -13,7 +13,7 @@ const Footer = () => {
         <img src={bgShadow1} alt="" className="absolute -top-20 -left-20 max-w-none" />
       </div>
 
-      <div className="relative container mx-auto px-6 xl:px-0 z-10">
+      <div className="relative container mx-auto px-6 xl:px-16 3xl:px-0 z-10">
         <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-20">
           
           {/* Left Call to Action */}
@@ -58,7 +58,7 @@ const Footer = () => {
 
         {/* Bottom Logo */}
         <div className="mt-10 text-center">
-            <h1 className="text-4xl md:text-[5.6rem] font-light tracking-[0.1em] leading-normal md:leading-none">
+            <h1 className="text-4xl lg:text-6xl xl:text-7xl font-light tracking-[0.1em] leading-relaxed md:leading-none">
                 HIMMEL <span className="font-thin">|</span> <span className="tracking-normal capitalize font-thin">designed for quality life</span>
             </h1>
             

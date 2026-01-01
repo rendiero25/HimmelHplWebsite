@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { BsArrowRight, BsChevronLeft, BsChevronRight } from 'react-icons/bs';
+import { motion } from 'motion/react';
+import FadeIn from '../components/FadeIn';
+import StaggerContainer from '../components/StaggerContainer';
 
 // Hero Assets
 import heroSlide1 from '../assets/home/hero-slideshow1.png';
@@ -28,6 +32,7 @@ import edgingPvcImg from '../assets/home/edgingpvc-image.png';
 import wpcWallPanelImg from '../assets/home/wpcwallpanel-image.png';
 
 const Home = () => {
+  const navigate = useNavigate();
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [heroSlide1, heroSlide2, heroSlide3];
 
@@ -65,14 +70,14 @@ const Home = () => {
       <section className="relative md:h-screen md:min-h-[600px] bg-gradient-to-br from-white to-third flex items-center overflow-hidden">
         
         {/* Container for Left Content */}
-        <div className="container mx-auto px-6 xl:px-0 h-full flex items-start md:items-center relative z-10 pointer-events-none xl:pt-20 mb-[29rem] md:mb-0">
+        <div className="container mx-auto px-6 xl:px-16 2xl:px-2 h-full flex items-start md:items-center relative z-10 pointer-events-none xl:pt-20 mb-[38rem] md:mb-0">
            
            <div className="w-full md:w-1/2 pointer-events-auto h-1/2 md:h-full flex flex-col justify-center relative pt-20 md:pt-0">
              {/* Vertical Line - Inside Wrapper now, relative to this column */}
              <div className="absolute left-[37%] top-0 bottom-0 w-[2px] bg-gradient-to-b from-third/0 to-third hidden md:block"></div>
              
              {/* Top Right Intro Text */}
-             <div className="hidden xl:flex flex-col absolute top-0 left-[52%]">
+             <FadeIn delay={0.2} direction="down" className="hidden xl:flex flex-col absolute top-0 left-[52%]">
                 <h3 className="font-primary font-medium text-black text-3xl leading-tight mb-4">
                   Your <br/>
                   Partner In <br/>
@@ -82,24 +87,26 @@ const Home = () => {
                 <a href="/about-us" className="text-red-600 text-sm font-bold tracking-widest uppercase hover:text-red-700 transition-colors">
                   Read more
                 </a>
-             </div>
+             </FadeIn>
 
-             <h1 className="md:mt-30 font-secondary text-black font-medium text-5xl md:text-6xl lg:text-7xl mb-8 leading-[1.1] relative z-10 mix-blend-multiply">
-               Himmel.<br />
-               Designed for <br />
-               quality life
-             </h1>
+             <FadeIn delay={0.4} direction="up">
+               <h1 className="md:mt-30 font-secondary text-black font-medium text-5xl md:text-6xl lg:text-7xl mb-8 leading-[1.1] relative z-10 mix-blend-multiply">
+                 Himmel.<br />
+                 Designed for <br />
+                 quality life
+               </h1>
+             </FadeIn>
              
-             <div className="flex flex-col xl:flex-row gap-18 text-sm md:text-xs font-reguler tracking-wide uppercase md:pt-12 max-w-xl">
-                <div className="w-[50%] flex flex-row justify-between items-start gap-2 border-t border-black pt-4">
+             <FadeIn delay={0.6} direction="up" className="flex flex-col xl:flex-row gap-18 text-sm md:text-xs font-reguler tracking-wide uppercase md:pt-12 max-w-xl">
+                <div className="w-[50%] xl:w-[35%] 2xl:w-[50%] flex flex-row justify-between items-start gap-2 border-t border-black pt-4">
                    <span className='text-black text-lg'>01</span>
                    <span className="text-black text-lg md:text-right leading-relaxed normal-case block">Contact us immediately to ask something</span>
                 </div>
-                <div className="w-[50%] flex flex-row justify-between items-start gap-2 border-t border-black pt-4">
+                <div className="w-[50%] xl:w-[35%] 2xl:w-[50%] flex flex-row justify-between items-start gap-2 border-t border-black pt-4">
                    <span className='text-black text-lg'>02</span>
                    <span className="text-black text-lg md:text-right leading-relaxed normal-case block">Our collection in interior development</span>
                 </div>
-             </div>
+             </FadeIn>
 
              {/* Red Circle Button - Positioned relative to content now, or absolute? 
                  Design usually has it overlapping image or centered.
@@ -110,7 +117,14 @@ const Home = () => {
            
              {/* Red Circle Button (Absolute centered on the split line) */}
             <div className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 z-20 hidden md:block pointer-events-auto">
-                <img src={redCircle} alt="Explore" className="w-20 h-20 md:w-24 md:h-24 hover:scale-105 transition-transform cursor-pointer" />
+                <motion.img 
+                  src={redCircle} 
+                  alt="Explore" 
+                  className="w-20 h-20 md:w-24 md:h-24 hover:scale-105 transition-transform cursor-pointer" 
+                  initial={{ rotate: 0 }}
+                  animate={{ rotate: 360 }}
+                  transition={{ duration: 3, ease: "easeInOut" }}
+                />
             </div>
         </div>
 
@@ -141,22 +155,24 @@ const Home = () => {
             <img src={section2Image} alt="About Himmel" className="w-full h-full object-cover"/>
          </div>
          <div className="container mx-auto px-6 xl:px-0 relative z-10 h-full text-white">
-            <p className="font-primary text-xl md:text-3xl leading-relaxed opacity-90 max-w-4xl">
-               <span className='font-bold'>Himmel </span>is a leading provider of interior solutions. <br /> 
-                    As one of Indonesia’s largest High Pressure Laminates (HPL) brand, 
-                    our continuous investments in innovation and operation maintain 
-                    the recognition of HIMMEL as a premium national brand. 
-                    With a solid reputation and adoption in the market, HIMMEL has 
-                    grown to be the most recognized brand for surfaces in Indonesia. 
-                    Our extensive offerings from HPL, flooring, PVC Board and high 
-                    quality solutions for beautiful interiors and spaces.
-            </p>
+            <FadeIn delay={0.2} direction="up">
+              <p className="font-primary text-xl md:text-3xl leading-relaxed opacity-90 max-w-4xl">
+                 <span className='font-bold'>Himmel </span>is a leading provider of interior solutions. <br /> 
+                      As one of Indonesia’s largest High Pressure Laminates (HPL) brand, 
+                      our continuous investments in innovation and operation maintain 
+                      the recognition of HIMMEL as a premium national brand. 
+                      With a solid reputation and adoption in the market, HIMMEL has 
+                      grown to be the most recognized brand for surfaces in Indonesia. 
+                      Our extensive offerings from HPL, flooring, PVC Board and high 
+                      quality solutions for beautiful interiors and spaces.
+              </p>
+            </FadeIn>
          </div>
       </section>
 
 
       {/* --- PRODUCT GRID SECTION --- */}
-      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
          
          {/* 1. Daftar Produk (Red) */}
          <div className="relative group overflow-hidden bg-red-600 h-100 md:h-150 flex items-center justify-center p-8 text-center text-white">
@@ -166,87 +182,122 @@ const Home = () => {
             </div>
          </div>
 
-         {/* 2. High Pressure Laminate */}
-         <div className="relative group overflow-hidden h-100 md:h-150 cursor-pointer">
-            <img src={hplImg} alt="HPL" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-            <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-            <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
-               <h3 className="font-bold text-3xl mb-2 leading-relaxed">High Pressure<br/>Laminate (HPL)</h3>
-               <p className="text-md max-w-sm leading-relaxed">Bahan pelapis yang digunakan lapisan 
-                  teratas atau finishing pada furnitur kayu,
-                  sehingga menampilkan tampilan yang
-                  halus namun bertekstur</p>
-            </div>
-         </div>
+          {/* 2. High Pressure Laminate */}
+         <FadeIn delay={0.1} direction="up" className="h-full w-full">
+           <div 
+              onClick={() => navigate('/product?category=hpl')}
+              className="relative group overflow-hidden h-100 md:h-150 cursor-pointer w-full"
+           >
+              <img src={hplImg} alt="HPL" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
+              <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+                 <h3 className="font-bold text-3xl mb-2 leading-relaxed">High Pressure<br/>Laminate (HPL)</h3>
+                 <p className="text-md max-w-sm leading-relaxed">Bahan pelapis yang digunakan lapisan 
+                    teratas atau finishing pada furnitur kayu,
+                    sehingga menampilkan tampilan yang
+                    halus namun bertekstur</p>
+              </div>
+           </div>
+         </FadeIn>
 
          {/* 3. PVC Board */}
-         <div className="relative group overflow-hidden h-100 md:h-150 cursor-pointer">
-            <img src={pvcBoardImg} alt="PVC Board" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-            <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-            <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
-               <h3 className="font-bold text-3xl mb-2 leading-relaxed">PVC Board</h3>
-               <p className="text-md max-w-sm leading-relaxed">Produk material yang dihasilkan melalui
-                  pemrosesan dengan menggunakan mesin
-                  proses foam</p>
-            </div>
-         </div>
+         <FadeIn delay={0.2} direction="up" className="h-full w-full">
+           <div 
+              onClick={() => navigate('/product?category=pvc-board')}
+              className="relative group overflow-hidden h-100 md:h-150 cursor-pointer w-full"
+           >
+              <img src={pvcBoardImg} alt="PVC Board" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
+              <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+                 <h3 className="font-bold text-3xl mb-2 leading-relaxed">PVC Board</h3>
+                 <p className="text-md max-w-sm leading-relaxed">Produk material yang dihasilkan melalui
+                    pemrosesan dengan menggunakan mesin
+                    proses foam</p>
+              </div>
+           </div>
+         </FadeIn>
 
          {/* 4. WPC Pool Deck */}
-         <div className="relative group overflow-hidden h-100 md:h-150 cursor-pointer">
-            <img src={wpcPoolDeckImg} alt="WPC Pool Deck" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-            <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-            <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
-               <h3 className="font-bold text-3xl mb-2 leading-relaxed">WPC Pool Deck</h3>
-               <p className="text-md max-w-sm leading-relaxed">Inovasi baru yang menjadi solusi ideal
-                  pengganti solid wood decking</p>
+         <FadeIn delay={0.3} direction="up" className="h-full w-full">
+            <div 
+               onClick={() => navigate('/product?category=wpc-pooldeck')}
+               className="relative group overflow-hidden h-100 md:h-150 cursor-pointer w-full"
+            >
+               <img src={wpcPoolDeckImg} alt="WPC Pool Deck" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
+               <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+                  <h3 className="font-bold text-3xl mb-2 leading-relaxed">WPC Pool Deck</h3>
+                  <p className="text-md max-w-sm leading-relaxed">Inovasi baru yang menjadi solusi ideal
+                     pengganti solid wood decking</p>
+               </div>
             </div>
-         </div>
+         </FadeIn>
 
          {/* 5. SPC Flooring */}
-         <div className="relative group overflow-hidden h-100 md:h-150 cursor-pointer">
-            <img src={spcFlooringImg} alt="SPC Flooring" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-            <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-            <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
-               <h3 className="font-bold text-3xl mb-2 leading-relaxed">SPC Flooring</h3>
-               <p className="text-md max-w-sm leading-relaxed">Tipe material lantai, berbahan utama
-                  stone polymer composite (SPC) </p>
+         <FadeIn delay={0.4} direction="up" className="h-full w-full">
+            <div 
+               onClick={() => navigate('/product?category=spc-flooring')}
+               className="relative group overflow-hidden h-100 md:h-150 cursor-pointer w-full"
+            >
+               <img src={spcFlooringImg} alt="SPC Flooring" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
+               <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+                  <h3 className="font-bold text-3xl mb-2 leading-relaxed">SPC Flooring</h3>
+                  <p className="text-md max-w-sm leading-relaxed">Tipe material lantai, berbahan utama
+                     stone polymer composite (SPC) </p>
+               </div>
             </div>
-         </div>
+         </FadeIn>
 
          {/* 6. Vinyl Flooring */}
-         <div className="relative group overflow-hidden h-100 md:h-150 cursor-pointer">
-             <img src={vinylFlooringImg} alt="Vinyl Flooring" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-             <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
-               <h3 className="font-bold text-3xl mb-2 leading-relaxed">Vinyl Flooring</h3>
-               <p className="text-md max-w-sm leading-relaxed">Jenis lantai yang terbuat dari plastik polivinyl 
-                klorida (PVC) yang dicampur dengan bahan-bahan lain seperti plastikizer, pigmen, dan stablizer</p>
+         <FadeIn delay={0.5} direction="up" className="h-full w-full">
+            <div 
+               onClick={() => navigate('/product?category=vinyl-flooring')}
+               className="relative group overflow-hidden h-100 md:h-150 cursor-pointer w-full"
+            >
+               <img src={vinylFlooringImg} alt="Vinyl Flooring" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
+               <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+                  <h3 className="font-bold text-3xl mb-2 leading-relaxed">Vinyl Flooring</h3>
+                  <p className="text-md max-w-sm leading-relaxed">Jenis lantai yang terbuat dari plastik polivinyl 
+                  klorida (PVC) yang dicampur dengan bahan-bahan lain seperti plastikizer, pigmen, dan stablizer</p>
+               </div>
             </div>
-         </div>
+         </FadeIn>
 
-          {/* 7. Edging PVC */}
-          <div className="relative group overflow-hidden h-100 md:h-150 cursor-pointer">
-             <img src={edgingPvcImg} alt="Edging PVC" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-             <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
-               <h3 className="font-bold text-3xl mb-2 leading-relaxed">Edging PVC</h3>
-               <p className="text-md max-w-sm leading-relaxed">Salah satu produk pelapis sekaligus
-                pelindung sisi samping sebuah furnitur meja, lemari, maupun backdrop</p>
+           {/* 7. Edging PVC */}
+         <FadeIn delay={0.6} direction="up" className="h-full w-full">
+            <div 
+               onClick={() => navigate('/product?category=edging-pvc')}
+               className="relative group overflow-hidden h-100 md:h-150 cursor-pointer w-full"
+            >
+               <img src={edgingPvcImg} alt="Edging PVC" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
+               <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+                  <h3 className="font-bold text-3xl mb-2 leading-relaxed">Edging PVC</h3>
+                  <p className="text-md max-w-sm leading-relaxed">Salah satu produk pelapis sekaligus
+                  pelindung sisi samping sebuah furnitur meja, lemari, maupun backdrop</p>
+               </div>
             </div>
-         </div>
+         </FadeIn>
 
-          {/* 8. WPC Wall Panel */}
-          <div className="relative group overflow-hidden h-100 md:h-150 xl:col-span-2 lg:col-span-2 cursor-pointer">
-             <img src={wpcWallPanelImg} alt="WPC Wall Panel" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-             <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
-               <h3 className="font-bold text-3xl mb-2 leading-relaxed">WPC Wall Panel</h3>
-               <p className="text-md max-w-sm leading-relaxed">Salah satu produk pelapis sekaligus
-                pelindung sisi samping sebuah furnitur meja, lemari, maupun backdrop</p>
+           {/* 8. WPC Wall Panel */}
+         <FadeIn delay={0.7} direction="up" className="h-full w-full xl:col-span-2 lg:col-span-2">
+            <div 
+               onClick={() => navigate('/product?category=wpc-wallpanel')}
+               className="relative group overflow-hidden h-100 md:h-150 cursor-pointer w-full"
+            >
+               <img src={wpcWallPanelImg} alt="WPC Wall Panel" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
+               <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+                  <h3 className="font-bold text-3xl mb-2 leading-relaxed">WPC Wall Panel</h3>
+                  <p className="text-md max-w-sm leading-relaxed">Salah satu produk pelapis sekaligus
+                  pelindung sisi samping sebuah furnitur meja, lemari, maupun backdrop</p>
+               </div>
             </div>
-         </div>
+         </FadeIn>
 
-      </section>
+      </StaggerContainer>
 
 
       {/* --- PHILOSOPHY SECTION --- */}
@@ -264,16 +315,18 @@ const Home = () => {
              <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent h-[90%] self-end"></div>
          </div>
          
-         <div className="container mx-auto px-6 xl:px-0 relative z-10 w-full flex flex-col md:flex-row justify-between items-center md:items-end gap-8 text-white">
+         <div className="container mx-auto px-6 xl:px-16 3xl:px-0 relative z-10 w-full flex flex-col md:flex-row justify-between items-center md:items-end gap-8 text-white">
              <div className="max-w-xl h-full">
-                 <p className="text-md tracking-widest mb-3 text-center md:text-left">Tingkatkan Pengalaman Hidup Anda</p>
-                 <h2 className="font-primary text-4xl md:text-7xl leading-tight font-medium text-center md:text-left">
-                    We design <br />
-                    the places <br />
-                    where people <br />
-                    love to be <br />
-                    together.
-                 </h2>
+                 <FadeIn delay={0.2} direction="up">
+                   <p className="text-md tracking-widest mb-3 text-center md:text-left">Tingkatkan Pengalaman Hidup Anda</p>
+                   <h2 className="font-primary text-4xl md:text-7xl leading-tight font-medium text-center md:text-left">
+                      We design <br />
+                      the places <br />
+                      where people <br />
+                      love to be <br />
+                      together.
+                   </h2>
+                 </FadeIn>
              </div>
              
              {/* Slider Navigation Icons */}
