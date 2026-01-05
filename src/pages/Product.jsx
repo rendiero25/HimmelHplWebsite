@@ -414,9 +414,12 @@ const Product = () => {
                         {/* Details Section */}
                         <div className="w-full md:w-1/2 flex flex-col justify-center text-left py-4 px-4 md:px-0">
                             <span className="text-xs uppercase tracking-widest text-gray-500 mb-2">{formatCategoryTitle(selectedCategory)}</span>
-                            <h2 className="text-3xl md:text-5xl font-secondary text-gray-900 mb-6 leading-tight">
+                            <h2 className="text-3xl md:text-5xl font-secondary text-gray-900 mb-2 leading-tight">
                                 {selectedProduct['nama-produk'].replace(/.jpg$/i, '')}
                             </h2>
+                            <p className="text-gray-600 text-sm md:text-base mb-6 leading-relaxed">
+                                {selectedProduct['description']}
+                            </p>
                             
                             <div className="space-y-4 text-sm md:text-base text-gray-700">
                                 <div className="border-b border-gray-100 pb-2">

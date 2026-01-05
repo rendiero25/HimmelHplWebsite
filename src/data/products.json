@@ -7,67 +7,78 @@
         "id-produk": "uzfn2cq97",
         "nama-produk": "Foam Board 10mm",
         "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 10mm.jpg"
+        "image-produk": "/data/edging-pvc/Foam Board 10mm.jpg",
+        "description": "-"
       },
       {
         "id-produk": "8qt4selm1",
         "nama-produk": "Foam Board 12mm",
         "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 12mm.jpg"
+        "image-produk": "/data/edging-pvc/Foam Board 12mm.jpg",
+        "description": "-"
       },
       {
         "id-produk": "wtj636d10",
         "nama-produk": "Foam Board 15mm",
         "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 15mm.jpg"
+        "image-produk": "/data/edging-pvc/Foam Board 15mm.jpg",
+        "description": "-"
       },
       {
         "id-produk": "qa1ec5bsc",
         "nama-produk": "Foam Board 18mm",
         "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 18mm.jpg"
+        "image-produk": "/data/edging-pvc/Foam Board 18mm.jpg",
+        "description": "-"
       },
       {
         "id-produk": "ds6ebdf9i",
         "nama-produk": "Foam Board 20mm",
         "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 20mm.jpg"
+        "image-produk": "/data/edging-pvc/Foam Board 20mm.jpg",
+        "description": "-"
       },
       {
         "id-produk": "s4bykujmf",
         "nama-produk": "Foam Board 25mm",
         "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 25mm.jpg"
+        "image-produk": "/data/edging-pvc/Foam Board 25mm.jpg",
+        "description": "-"
       },
       {
         "id-produk": "prgdwha9h",
         "nama-produk": "Foam Board 3mm",
         "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 3mm.jpg"
+        "image-produk": "/data/edging-pvc/Foam Board 3mm.jpg",
+        "description": "-"
       },
       {
         "id-produk": "l9yyf7i2u",
         "nama-produk": "Foam Board 5mm",
         "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 5mm.jpg"
+        "image-produk": "/data/edging-pvc/Foam Board 5mm.jpg",
+        "description": "-"
       },
       {
         "id-produk": "yty8i5ozd",
         "nama-produk": "Foam Board 6mm",
         "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 6mm.jpg"
+        "image-produk": "/data/edging-pvc/Foam Board 6mm.jpg",
+        "description": "-"
       },
       {
         "id-produk": "9olwzzhc4",
         "nama-produk": "Foam Board 8mm",
         "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 8mm.jpg"
+        "image-produk": "/data/edging-pvc/Foam Board 8mm.jpg",
+        "description": "-"
       },
       {
         "id-produk": "5rzw5lzco",
         "nama-produk": "Foam Board 9mm",
         "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 9mm.jpg"
+        "image-produk": "/data/edging-pvc/Foam Board 9mm.jpg",
+        "description": "-"
       }
     ]
   },
@@ -88,84 +99,96 @@
                 "nama-produk": "3H049 Light Coco Combine",
                 "kode-produk": "3H049",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern/3H049 Light Coco Combine.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "uvkqfldbc",
                 "nama-produk": "3H050 Black Coco Combine",
                 "kode-produk": "3H050",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern/3H050 Black Coco Combine.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "tbodpg0q5",
                 "nama-produk": "H1625 Italy Leather",
                 "kode-produk": "H1625",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern/H1625 Italy Leather.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ap2bwynke",
                 "nama-produk": "H1637 Sofil Stone",
                 "kode-produk": "H1637",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern/H1637 Sofil Stone.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "pni5jnj4a",
                 "nama-produk": "H1646 Grey Charm",
                 "kode-produk": "H1646",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern/H1646 Grey Charm.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "iia6tivy8",
                 "nama-produk": "H1828 Light Grey Poly",
                 "kode-produk": "H1828",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern/H1828 Light Grey Poly.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "12llgmoef",
                 "nama-produk": "H1838 Japan Arrow",
                 "kode-produk": "H1838",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern/H1838 Japan Arrow.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "2tefbzcbn",
                 "nama-produk": "H1858 White Charm",
                 "kode-produk": "H1858",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern/H1858 White Charm.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "staelxv2i",
                 "nama-produk": "H1865 Beight Stone",
                 "kode-produk": "H1865",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern/H1865 Beight Stone.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "2g1y9ocxr",
                 "nama-produk": "H3501 Black Rose",
                 "kode-produk": "H3501",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern/H3501 Black Rose.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "t08h051v5",
                 "nama-produk": "H4104 Image White",
                 "kode-produk": "H4104",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern/H4104 Image White.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "c22xtftu8",
                 "nama-produk": "H8887 Grey Brushed",
                 "kode-produk": "H8887",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern/H8887 Grey Brushed.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               }
             ]
           },
@@ -178,91 +201,104 @@
                 "nama-produk": "4H3459G Grey Fito Gloss",
                 "kode-produk": "4H3459G",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Gloss/4H3459G Grey Fito Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "8g3lg8ren",
                 "nama-produk": "5H1637G Sofil Stone Gloss",
                 "kode-produk": "5H1637G",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Gloss/5H1637G Sofil Stone Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "t37pz4crs",
                 "nama-produk": "5H1828G Light Grey Poly Gloss",
                 "kode-produk": "5H1828G",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Gloss/5H1828G Light Grey Poly Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "3d7752347",
                 "nama-produk": "5H3108G Black Flora Gloss",
                 "kode-produk": "5H3108G",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Gloss/5H3108G Black Flora Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "kqj1vpv7w",
                 "nama-produk": "6304 Machine Table",
                 "kode-produk": "6304",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Gloss/6304 Machine Table.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "j0xtsr50q",
                 "nama-produk": "6H1866G Silver Stone Gloss",
                 "kode-produk": "6H1866G",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Gloss/6H1866G Silver Stone Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "yfgrc5mwo",
                 "nama-produk": "7H100G Emerald Stone Gloss",
                 "kode-produk": "7H100G",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Gloss/7H100G Emerald Stone Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "hnmbwy5mi",
                 "nama-produk": "7H1867G Gold Stone Gloss",
                 "kode-produk": "7H1867G",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Gloss/7H1867G Gold Stone Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ixndechfm",
                 "nama-produk": "7H3450G Cloud Marble Gloss",
                 "kode-produk": "7H3450G",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Gloss/7H3450G Cloud Marble Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "dx5qog9pq",
                 "nama-produk": "7H7399G Rose Glod Gloss",
                 "kode-produk": "7H7399G",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Gloss/7H7399G Rose Glod Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "x6kvkag74",
                 "nama-produk": "8H095G Bianco Marble Gloss",
                 "kode-produk": "8H095G",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Gloss/8H095G Bianco Marble Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "q68oqo2hh",
                 "nama-produk": "9H7157G Pearl White Gloss",
                 "kode-produk": "9H7157G",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Gloss/9H7157G Pearl White Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "nhfuzwmx7",
                 "nama-produk": "9H78I9G Black Pearl Gloss",
                 "kode-produk": "9H78I9G",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Gloss/9H78I9G Black Pearl Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               }
             ]
           },
@@ -275,35 +311,40 @@
                 "nama-produk": "11H1000 Stainless",
                 "kode-produk": "11H1000",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Metal/11H1000 Stainless.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "f8myq4lgi",
                 "nama-produk": "11H1001 Brushed Stainless",
                 "kode-produk": "11H1001",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Metal/11H1001 Brushed Stainless.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "972sl2hzi",
                 "nama-produk": "12H9005 Gold",
                 "kode-produk": "12H9005",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Metal/12H9005 Gold.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "spxrb8alg",
                 "nama-produk": "12H9006 Bronze",
                 "kode-produk": "12H9006",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Metal/12H9006 Bronze.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "nevfhgtic",
                 "nama-produk": "12H9007 Sand Silver",
                 "kode-produk": "12H9007",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Metal/12H9007 Sand Silver.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               }
             ]
           },
@@ -316,217 +357,248 @@
                 "nama-produk": "7H1646NT Grey Charm NT",
                 "kode-produk": "7H1646NT",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/7H1646NT Grey Charm NT.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "aav1lrg10",
                 "nama-produk": "8H010ST Iron Store ST",
                 "kode-produk": "8H010ST",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H010ST Iron Store ST.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "3lsm64xou",
                 "nama-produk": "8H045ST Brown Amasia ST",
                 "kode-produk": "8H045ST",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H045ST Brown Amasia ST.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "d3b4c454k",
                 "nama-produk": "8H092ML Black ML",
                 "kode-produk": "8H092ML",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H092ML Black ML.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "kjm9ot64v",
                 "nama-produk": "8H099CK Natural Stone CK",
                 "kode-produk": "8H099CK",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H099CK Natural Stone CK.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "k4ewcgw6o",
                 "nama-produk": "8H101SD Aiden Pashley SD",
                 "kode-produk": "8H101SD",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H101SD Aiden Pashley SD.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "wlqw3fh4i",
                 "nama-produk": "8H101SD Aiden Pashley",
                 "kode-produk": "8H101SD",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H101SD Aiden Pashley.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "njpqah2wy",
                 "nama-produk": "8H105MSK White MSK",
                 "kode-produk": "8H105MSK",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H105MSK White MSK.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ll46wi2br",
                 "nama-produk": "8H1101LF Red LF",
                 "kode-produk": "8H1101LF",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H1101LF Red LF.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "40ahjhxwd",
                 "nama-produk": "8H1625ALT Italy Leather ALT",
                 "kode-produk": "8H1625ALT",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H1625ALT Italy Leather ALT.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "hj8twjwj2",
                 "nama-produk": "8H1705TD Black TD",
                 "kode-produk": "8H1705TD",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H1705TD Black TD.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "j7ptvupwd",
                 "nama-produk": "8H1707LF Black LF",
                 "kode-produk": "8H1707LF",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H1707LF Black LF.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "l7vauhq19",
                 "nama-produk": "8H1858NRE White Charm NRE",
                 "kode-produk": "8H1858NRE",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H1858NRE White Charm NRE.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "3y8v4kuqk",
                 "nama-produk": "8H1865FB Beight Stone FB",
                 "kode-produk": "8H1865FB",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H1865FB Beight Stone FB.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "td9ypzm4z",
                 "nama-produk": "8H1866FB Silver Stone FB",
                 "kode-produk": "8H1866FB",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H1866FB Silver Stone FB.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "y8oyigbr3",
                 "nama-produk": "8H1867FB Gold Stone FB",
                 "kode-produk": "8H1867FB",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H1867FB Gold Stone FB.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "k2h7794st",
                 "nama-produk": "8H1909RT Black RT",
                 "kode-produk": "8H1909RT",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H1909RT Black RT.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "dhnyxryop",
                 "nama-produk": "8H1949LF White LF",
                 "kode-produk": "8H1949LF",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H1949LF White LF.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "xaxhyioyu",
                 "nama-produk": "8H3456FB Grey Leger FB",
                 "kode-produk": "8H3456FB",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H3456FB Grey Leger FB.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "eyuvu0exx",
                 "nama-produk": "8H6417FB Ando Concrete FB",
                 "kode-produk": "8H6417FB",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H6417FB Ando Concrete FB.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "z2l8nvwc0",
                 "nama-produk": "8H7460FB Kala Kate FB",
                 "kode-produk": "8H7460FB",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H7460FB Kala Kate FB.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "mo3nyi1rz",
                 "nama-produk": "8H8048MSK Red MSK",
                 "kode-produk": "8H8048MSK",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H8048MSK Red MSK.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "tj1fkzl0b",
                 "nama-produk": "8H9305CK Koto Caraceni CK",
                 "kode-produk": "8H9305CK",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H9305CK Koto Caraceni CK.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "a64wil3mc",
                 "nama-produk": "8H9325CK Lalo Ramblas CK",
                 "kode-produk": "8H9325CK",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H9325CK Lalo Ramblas CK.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "786x5jbc4",
                 "nama-produk": "8H9326HA Claude Beton HA",
                 "kode-produk": "8H9326HA",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H9326HA Claude Beton HA.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "0prirbxdr",
                 "nama-produk": "8H9329FB Kate Slate FB",
                 "kode-produk": "8H9329FB",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/8H9329FB Kate Slate FB.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "jfaoq91mo",
                 "nama-produk": "9H1838LM Japan Arrow LM",
                 "kode-produk": "9H1838LM",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/9H1838LM Japan Arrow LM.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "sanqghgl1",
                 "nama-produk": "9H5310LM Faux Denim LM",
                 "kode-produk": "9H5310LM",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/9H5310LM Faux Denim LM.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "mrj1b0c1s",
                 "nama-produk": "9H5337LM Stoffa Crema LM",
                 "kode-produk": "9H5337LM",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/9H5337LM Stoffa Crema LM.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "pmqgrfmso",
                 "nama-produk": "9H6445LM Stoffa Denim LM",
                 "kode-produk": "9H6445LM",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/9H6445LM Stoffa Denim LM.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "sh35kmmw5",
                 "nama-produk": "9H6446LM Stoffa Grey LM",
                 "kode-produk": "9H6446LM",
                 "image-produk": "/data/hpl/hpl-pattern/Pattern Texture/9H6446LM Stoffa Grey LM.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               }
             ]
           }
@@ -545,266 +617,304 @@
                 "nama-produk": "2H004 France Green",
                 "kode-produk": "2H004",
                 "image-produk": "/data/hpl/hpl-solid/Solid/2H004 France Green.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "huo8sitbd",
                 "nama-produk": "2H008 Birch",
                 "kode-produk": "2H008",
                 "image-produk": "/data/hpl/hpl-solid/Solid/2H008 Birch.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "g2fmsa9mv",
                 "nama-produk": "2H1253 Bark",
                 "kode-produk": "2H1253",
                 "image-produk": "/data/hpl/hpl-solid/Solid/2H1253 Bark.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "xhnewrxie",
                 "nama-produk": "2H128 Cadet Blue",
                 "kode-produk": "2H128",
                 "image-produk": "/data/hpl/hpl-solid/Solid/2H128 Cadet Blue.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "jaj48d7kl",
                 "nama-produk": "2H3347 Hawai Blue",
                 "kode-produk": "2H3347",
                 "image-produk": "/data/hpl/hpl-solid/Solid/2H3347 Hawai Blue.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "yuwx99p1u",
                 "nama-produk": "5112 White",
                 "kode-produk": "5112",
                 "image-produk": "/data/hpl/hpl-solid/Solid/5112 White.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "vuxatc9o1",
                 "nama-produk": "9H1949 Snow White 1mm",
                 "kode-produk": "9H1949",
                 "image-produk": "/data/hpl/hpl-solid/Solid/9H1949 Snow White 1mm.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "xbdy692y6",
                 "nama-produk": "H006 Charcoal Grey",
                 "kode-produk": "H006",
                 "image-produk": "/data/hpl/hpl-solid/Solid/H006 Charcoal Grey.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "kes8dnq3f",
                 "nama-produk": "H007 Clay",
                 "kode-produk": "H007",
                 "image-produk": "/data/hpl/hpl-solid/Solid/H007 Clay.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "kgymf7n9x",
                 "nama-produk": "H3899 Land Beige",
                 "kode-produk": "H3899",
                 "image-produk": "/data/hpl/hpl-solid/Solid/H3899 Land Beige.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "97flpt94l",
                 "nama-produk": "S0001 Bright Sunny",
                 "kode-produk": "S0001",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S0001 Bright Sunny.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "vhkv73p1t",
                 "nama-produk": "S002 Lime Green",
                 "kode-produk": "S002",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S002 Lime Green.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "jz0j7tp6w",
                 "nama-produk": "S003 Mint Green",
                 "kode-produk": "S003",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S003 Mint Green.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "89gxi5uv0",
                 "nama-produk": "S005 Dark Green",
                 "kode-produk": "S005",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S005 Dark Green.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "9101usca1",
                 "nama-produk": "S1107 Pink",
                 "kode-produk": "S1107",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1107 Pink.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "6ywf09hm2",
                 "nama-produk": "S1109 Rose Purple",
                 "kode-produk": "S1109",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1109 Rose Purple.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "wnm6y9ovf",
                 "nama-produk": "S1118 Paprika",
                 "kode-produk": "S1118",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1118 Paprika.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "i7trb4wh1",
                 "nama-produk": "S1201 Sun Light",
                 "kode-produk": "S1201",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1201 Sun Light.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "bdjlvyo4q",
                 "nama-produk": "S1303 Milky White",
                 "kode-produk": "S1303",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1303 Milky White.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "mx6mvvss6",
                 "nama-produk": "S1305 Pure White",
                 "kode-produk": "S1305",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1305 Pure White.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ieaf6bedf",
                 "nama-produk": "S1307 Ash Brown",
                 "kode-produk": "S1307",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1307 Ash Brown.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "nmvkggqlb",
                 "nama-produk": "S1405 Opal Green",
                 "kode-produk": "S1405",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1405 Opal Green.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "usvnvazfg",
                 "nama-produk": "S1504 Purple",
                 "kode-produk": "S1504",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1504 Purple.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "pzc460r2f",
                 "nama-produk": "S1606 Sky Blue",
                 "kode-produk": "S1606",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1606 Sky Blue.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "m0j92iqzo",
                 "nama-produk": "S1701 Grey Stone",
                 "kode-produk": "S1701",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1701 Grey Stone.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "fqm6apvgr",
                 "nama-produk": "S1703 Mouse Grey",
                 "kode-produk": "S1703",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1703 Mouse Grey.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "r6u1mnwge",
                 "nama-produk": "S1705 Pastel Grey",
                 "kode-produk": "S1705",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1705 Pastel Grey.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "p0skc8hy7",
                 "nama-produk": "S1706 Iron Grey",
                 "kode-produk": "S1706",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1706 Iron Grey.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ltwiczn29",
                 "nama-produk": "S1941 Lilac",
                 "kode-produk": "S1941",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S1941 Lilac.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "vt1ub6ts3",
                 "nama-produk": "S3210 Lily Orange",
                 "kode-produk": "S3210",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S3210 Lily Orange.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "s5l8j4w74",
                 "nama-produk": "S3460 Ivory",
                 "kode-produk": "S3460",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S3460 Ivory.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "vrghl16ov",
                 "nama-produk": "S6112 Rosetta",
                 "kode-produk": "S6112",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S6112 Rosetta.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "nttt7myln",
                 "nama-produk": "S8002 Light Grey",
                 "kode-produk": "S8002",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S8002 Light Grey.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "t417n9y9w",
                 "nama-produk": "S8022 Orange",
                 "kode-produk": "S8022",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S8022 Orange.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "j4vrjmizp",
                 "nama-produk": "S8025 Sea Blue",
                 "kode-produk": "S8025",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S8025 Sea Blue.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "fxx25l1wp",
                 "nama-produk": "S8036 Beight",
                 "kode-produk": "S8036",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S8036 Beight.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "g2qe24shc",
                 "nama-produk": "S8048 Red",
                 "kode-produk": "S8048",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S8048 Red.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "wr4m5dpq2",
                 "nama-produk": "S8051 Black",
                 "kode-produk": "S8051",
                 "image-produk": "/data/hpl/hpl-solid/Solid/S8051 Black.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               }
             ]
           },
@@ -817,77 +927,88 @@
                 "nama-produk": "10H1949D Snow White Dofff 1mm",
                 "kode-produk": "10H1949D",
                 "image-produk": "/data/hpl/hpl-solid/Solid Doff/10H1949D Snow White Dofff 1mm.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "3xra3xjer",
                 "nama-produk": "2H0077D Clay Doff",
                 "kode-produk": "2H0077D",
                 "image-produk": "/data/hpl/hpl-solid/Solid Doff/2H0077D Clay Doff.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "4v3moy8hq",
                 "nama-produk": "5112D White Doff",
                 "kode-produk": "5112D",
                 "image-produk": "/data/hpl/hpl-solid/Solid Doff/5112D White Doff.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "hkq0bj3qk",
                 "nama-produk": "H006D Charcoal Grey Doff",
                 "kode-produk": "H006D",
                 "image-produk": "/data/hpl/hpl-solid/Solid Doff/H006D Charcoal Grey Doff.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "xqx5tn8cz",
                 "nama-produk": "H1606D Sky Blue Doff",
                 "kode-produk": "H1606D",
                 "image-produk": "/data/hpl/hpl-solid/Solid Doff/H1606D Sky Blue Doff.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "i0xsl4wzz",
                 "nama-produk": "H1703D Mouse Grey Doff",
                 "kode-produk": "H1703D",
                 "image-produk": "/data/hpl/hpl-solid/Solid Doff/H1703D Mouse Grey Doff.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "v19tottk1",
                 "nama-produk": "H3210D Lily Orange Doff",
                 "kode-produk": "H3210D",
                 "image-produk": "/data/hpl/hpl-solid/Solid Doff/H3210D Lily Orange Doff.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "hx6f3q6jx",
                 "nama-produk": "H4030D Egg Yolk Doff",
                 "kode-produk": "H4030D",
                 "image-produk": "/data/hpl/hpl-solid/Solid Doff/H4030D Egg Yolk Doff.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "eqxsg2zpo",
                 "nama-produk": "H8036D Beight Doff",
                 "kode-produk": "H8036D",
                 "image-produk": "/data/hpl/hpl-solid/Solid Doff/H8036D Beight Doff.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "bnbh6mwdu",
                 "nama-produk": "H8051D Black Doff",
                 "kode-produk": "H8051D",
                 "image-produk": "/data/hpl/hpl-solid/Solid Doff/H8051D Black Doff.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "p6ik6pyrx",
                 "nama-produk": "H80848D Red Doff",
                 "kode-produk": "H80848D",
                 "image-produk": "/data/hpl/hpl-solid/Solid Doff/H80848D Red Doff.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               }
             ]
           },
@@ -900,182 +1021,208 @@
                 "nama-produk": "10H1949G Snow White Gloss",
                 "kode-produk": "10H1949G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/10H1949G Snow White Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "f6fuj1434",
                 "nama-produk": "5112G White Gloss",
                 "kode-produk": "5112G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/5112G White Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "tznwhig9i",
                 "nama-produk": "H033G Mint Green Gloss",
                 "kode-produk": "H033G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H033G Mint Green Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ba930lxnm",
                 "nama-produk": "H1107G Pink Gloss",
                 "kode-produk": "H1107G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H1107G Pink Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "t6m060983",
                 "nama-produk": "H1109G Rose Purple Gloss",
                 "kode-produk": "H1109G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H1109G Rose Purple Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "5lme9e267",
                 "nama-produk": "H1118G Paprika Gloss",
                 "kode-produk": "H1118G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H1118G Paprika Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "zxhnjt4uq",
                 "nama-produk": "H1201G Sun Light Gloss",
                 "kode-produk": "H1201G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H1201G Sun Light Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "hkasya7y4",
                 "nama-produk": "H1303G Milky White Gloss",
                 "kode-produk": "H1303G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H1303G Milky White Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "r7iw8haqh",
                 "nama-produk": "H1305G Pure White Gloss",
                 "kode-produk": "H1305G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H1305G Pure White Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "45tyqm17g",
                 "nama-produk": "H1307G Ash Brown Gloss",
                 "kode-produk": "H1307G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H1307G Ash Brown Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ff2ziomtt",
                 "nama-produk": "H1405G Opal Green Gloss",
                 "kode-produk": "H1405G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H1405G Opal Green Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "vucmrna0o",
                 "nama-produk": "H1505G Purple Gloss",
                 "kode-produk": "H1505G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H1505G Purple Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "q5l96wjue",
                 "nama-produk": "H1606G Sky Blue Gloss",
                 "kode-produk": "H1606G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H1606G Sky Blue Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "a4v6y8i75",
                 "nama-produk": "H1705G Pastel Grey Gloss",
                 "kode-produk": "H1705G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H1705G Pastel Grey Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "hky2wmhbf",
                 "nama-produk": "H1706G Iron Grey Gloss",
                 "kode-produk": "H1706G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H1706G Iron Grey Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "lk4nmhxlw",
                 "nama-produk": "H1941G Lilac Gloss",
                 "kode-produk": "H1941G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H1941G Lilac Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "obd6lra1u",
                 "nama-produk": "H2460G Ivory Gloss",
                 "kode-produk": "H2460G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H2460G Ivory Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "evzgc4382",
                 "nama-produk": "H3210G Lily Orange Gloss",
                 "kode-produk": "H3210G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H3210G Lily Orange Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "58yhdoynv",
                 "nama-produk": "H3899G Land Beige Gloss",
                 "kode-produk": "H3899G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H3899G Land Beige Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "hmz5loh0b",
                 "nama-produk": "H6112G Rosetta Gloss",
                 "kode-produk": "H6112G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H6112G Rosetta Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "40b5e8c3x",
                 "nama-produk": "H8002G Light Grey Gloss",
                 "kode-produk": "H8002G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H8002G Light Grey Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "5ziiokjmt",
                 "nama-produk": "H8022G Orange Gloss",
                 "kode-produk": "H8022G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H8022G Orange Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "6wyzxo7p6",
                 "nama-produk": "H8025G Sea Blue Gloss",
                 "kode-produk": "H8025G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H8025G Sea Blue Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "5swoeme4p",
                 "nama-produk": "H8036 Beight Gloss",
                 "kode-produk": "H8036",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H8036 Beight Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "tg8qjkwnd",
                 "nama-produk": "H8048G Red Gloss",
                 "kode-produk": "H8048G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H8048G Red Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "b21ad2d2l",
                 "nama-produk": "H8051G Black Gloss",
                 "kode-produk": "H8051G",
                 "image-produk": "/data/hpl/hpl-solid/Solid Gloss/H8051G Black Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               }
             ]
           }
@@ -1094,1246 +1241,1424 @@
                 "nama-produk": "2H1082 Glory Cherry",
                 "kode-produk": "2H1082",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/2H1082 Glory Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "43ibgavr3",
                 "nama-produk": "2H1642 Piero Zebra",
                 "kode-produk": "2H1642",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/2H1642 Piero Zebra.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "qm8muzi9j",
                 "nama-produk": "2H6095 Lace Cherry",
                 "kode-produk": "2H6095",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/2H6095 Lace Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "n78o3k1uu",
                 "nama-produk": "2H6226 Clear Walnut",
                 "kode-produk": "2H6226",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/2H6226 Clear Walnut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "9tmwe484w",
                 "nama-produk": "2H6250 Teax",
                 "kode-produk": "2H6250",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/2H6250 Teax.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "o9o3q7v0r",
                 "nama-produk": "2H6277 Clear Pine",
                 "kode-produk": "2H6277",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/2H6277 Clear Pine.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "q5cyh4ejg",
                 "nama-produk": "2H6290 Ice Cherry",
                 "kode-produk": "2H6290",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/2H6290 Ice Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "04ewo3a15",
                 "nama-produk": "3H096 Nogal",
                 "kode-produk": "3H096",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/3H096 Nogal.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "1puo5hc51",
                 "nama-produk": "3H1806 Grabra Walnut",
                 "kode-produk": "3H1806",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/3H1806 Grabra Walnut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "8ov0cud6h",
                 "nama-produk": "3H1807 Shart Maple",
                 "kode-produk": "3H1807",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/3H1807 Shart Maple.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "f5m9telvx",
                 "nama-produk": "3H1808 Cartier Walnut",
                 "kode-produk": "3H1808",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/3H1808 Cartier Walnut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "5t5g0s9vf",
                 "nama-produk": "3H1812 Shart Cherry",
                 "kode-produk": "3H1812",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/3H1812 Shart Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "xbelca6fp",
                 "nama-produk": "3H8843 Natural Ash",
                 "kode-produk": "3H8843",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/3H8843 Natural Ash.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "uk7btkiby",
                 "nama-produk": "3H8848 Natural Teak",
                 "kode-produk": "3H8848",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/3H8848 Natural Teak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "br1a8r187",
                 "nama-produk": "3H9111 Rift Oak",
                 "kode-produk": "3H9111",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/3H9111 Rift Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "8qcx1qw1d",
                 "nama-produk": "3H9288 Precious Oak",
                 "kode-produk": "3H9288",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/3H9288 Precious Oak.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "oy2134x3b",
                 "nama-produk": "3H9682 Grey Oak",
                 "kode-produk": "3H9682",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/3H9682 Grey Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "9bnaduudg",
                 "nama-produk": "3H9843 Grey Elm",
                 "kode-produk": "3H9843",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/3H9843 Grey Elm.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ma2gowa9k",
                 "nama-produk": "3H986 Taxus Chinensis",
                 "kode-produk": "3H986",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/3H986 Taxus Chinensis.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "thlqdxdhi",
                 "nama-produk": "4H079 Potai Oak",
                 "kode-produk": "4H079",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/4H079 Potai Oak.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "jzc00rpo6",
                 "nama-produk": "8H2402RE Comet Plank RE",
                 "kode-produk": "8H2402RE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/8H2402RE Comet Plank RE.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "fkduyvurd",
                 "nama-produk": "G9863 Taxus Castle",
                 "kode-produk": "G9863",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/G9863 Taxus Castle.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "qdd0s33il",
                 "nama-produk": "H008 New American Walnut",
                 "kode-produk": "H008",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H008 New American Walnut.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "yssr2tab2",
                 "nama-produk": "H014 Origin Teak",
                 "kode-produk": "H014",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H014 Origin Teak.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "1eo7xb5es",
                 "nama-produk": "H016 Sol Pine",
                 "kode-produk": "H016",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H016 Sol Pine.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "a9rw1uelo",
                 "nama-produk": "H018 Alaska Ash",
                 "kode-produk": "H018",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H018 Alaska Ash.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "834d1aev0",
                 "nama-produk": "H0240 Silve Charm",
                 "kode-produk": "H0240",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H0240 Silve Charm.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "peo9cw0k4",
                 "nama-produk": "H026 Golden Walnut",
                 "kode-produk": "H026",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H026 Golden Walnut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ycw9wglmc",
                 "nama-produk": "H028 Mulia Teak",
                 "kode-produk": "H028",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H028 Mulia Teak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "c456capni",
                 "nama-produk": "H029 Mosco Cherry",
                 "kode-produk": "H029",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H029 Mosco Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "b739zu60y",
                 "nama-produk": "H031 Sunny Teak",
                 "kode-produk": "H031",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H031 Sunny Teak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "az4nu9cav",
                 "nama-produk": "H033 Meranti",
                 "kode-produk": "H033",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H033 Meranti.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "8zvz32kg9",
                 "nama-produk": "H033 Meranti",
                 "kode-produk": "H033",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H033 Meranti.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "55j0ux2j0",
                 "nama-produk": "H035 Thai Teak",
                 "kode-produk": "H035",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H035 Thai Teak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ku0rftdjv",
                 "nama-produk": "H037 White Larch",
                 "kode-produk": "H037",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H037 White Larch.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "rszcusv52",
                 "nama-produk": "H039 Smooky Bamboo",
                 "kode-produk": "H039",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H039 Smooky Bamboo.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "81phcta8m",
                 "nama-produk": "H042 London Oak",
                 "kode-produk": "H042",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H042 London Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "pit3pf6gw",
                 "nama-produk": "H046 Niagara Oak",
                 "kode-produk": "H046",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H046 Niagara Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "umx9ubzv4",
                 "nama-produk": "H059 Okoume",
                 "kode-produk": "H059",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H059 Okoume.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "pt6h6h54g",
                 "nama-produk": "H073 Avant Oak",
                 "kode-produk": "H073",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H073 Avant Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "b6u69l7sr",
                 "nama-produk": "H074 Smoke Strand",
                 "kode-produk": "H074",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H074 Smoke Strand.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "fzr1p6n36",
                 "nama-produk": "H075 Cream Strand",
                 "kode-produk": "H075",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H075 Cream Strand.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "rkwz62vq9",
                 "nama-produk": "H0812 Zenwood",
                 "kode-produk": "H0812",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H0812 Zenwood.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "p0q7mftds",
                 "nama-produk": "H1003 Batavia Beech",
                 "kode-produk": "H1003",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1003 Batavia Beech.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "egabbyvxc",
                 "nama-produk": "H110 New Bright Cedar",
                 "kode-produk": "H110",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H110 New Bright Cedar.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "07r9qc8rf",
                 "nama-produk": "H116 Brown Cherry",
                 "kode-produk": "H116",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H116 Brown Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "dk2goh7zv",
                 "nama-produk": "H117 Fave Cherry",
                 "kode-produk": "H117",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H117 Fave Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "vt5i7ee7y",
                 "nama-produk": "H120 Camel Walnut",
                 "kode-produk": "H120",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H120 Camel Walnut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "9hkc0xkoa",
                 "nama-produk": "H1209 Latin Beech",
                 "kode-produk": "H1209",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1209 Latin Beech.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "36ql9dfmq",
                 "nama-produk": "H121 England Oak",
                 "kode-produk": "H121",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H121 England Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "5sv4ef20m",
                 "nama-produk": "H123 Natural Oak",
                 "kode-produk": "H123",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H123 Natural Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "lytwwouz8",
                 "nama-produk": "H126 Black Walnut",
                 "kode-produk": "H126",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H126 Black Walnut.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "3tr8wdfvt",
                 "nama-produk": "H127 Japan Cherry",
                 "kode-produk": "H127",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H127 Japan Cherry.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "e7f8xsugc",
                 "nama-produk": "H1281 Taho Wood",
                 "kode-produk": "H1281",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1281 Taho Wood.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "hzaccy7x3",
                 "nama-produk": "H1302 Capper",
                 "kode-produk": "H1302",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1302 Capper.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "50pcs9zyc",
                 "nama-produk": "H1613 Ottawa Maple",
                 "kode-produk": "H1613",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1613 Ottawa Maple.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "6k38dzy3r",
                 "nama-produk": "H1619 Tropical Teak",
                 "kode-produk": "H1619",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1619 Tropical Teak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "lam1hzi98",
                 "nama-produk": "H1634 Holly Wood",
                 "kode-produk": "H1634",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1634 Holly Wood.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "0e1ko9tdd",
                 "nama-produk": "H1641 Kyoto Pine",
                 "kode-produk": "H1641",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1641 Kyoto Pine.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "3jiiatwz4",
                 "nama-produk": "H1643 Lumber Jack",
                 "kode-produk": "H1643",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1643 Lumber Jack.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ldr9ogkvl",
                 "nama-produk": "H1644 Cream Apple Tree",
                 "kode-produk": "H1644",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1644 Cream Apple Tree.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "rabqcgm1c",
                 "nama-produk": "H1645 Adam Walnut",
                 "kode-produk": "H1645",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1645 Adam Walnut.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "iddcwwplk",
                 "nama-produk": "H1648 Timber Land",
                 "kode-produk": "H1648",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1648 Timber Land.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "80k7aiiyt",
                 "nama-produk": "H1653 Tanny Sawcut",
                 "kode-produk": "H1653",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1653 Tanny Sawcut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "hxqjnat03",
                 "nama-produk": "H1656 Grey Sawcut",
                 "kode-produk": "H1656",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1656 Grey Sawcut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "wcbmg892p",
                 "nama-produk": "H1660 Holly Sawcut",
                 "kode-produk": "H1660",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1660 Holly Sawcut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "dl6in8xr0",
                 "nama-produk": "H1661 Blended Oak",
                 "kode-produk": "H1661",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1661 Blended Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "5gl5hh29w",
                 "nama-produk": "H1693 Locust Wood",
                 "kode-produk": "H1693",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1693 Locust Wood.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "b983qvmon",
                 "nama-produk": "H1696 Adam Grey Oak",
                 "kode-produk": "H1696",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1696 Adam Grey Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "72nm3afnp",
                 "nama-produk": "H1813 Oak Sawcut",
                 "kode-produk": "H1813",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1813 Oak Sawcut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "vdee0uhsf",
                 "nama-produk": "H1816 Karara Oak",
                 "kode-produk": "H1816",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1816 Karara Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "pphup0xgr",
                 "nama-produk": "H1817 Dell Wood",
                 "kode-produk": "H1817",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1817 Dell Wood.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "574o6yeu9",
                 "nama-produk": "H1818 Jungle Wood",
                 "kode-produk": "H1818",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1818 Jungle Wood.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "w2fajq0c3",
                 "nama-produk": "H1819 Thunder Oak",
                 "kode-produk": "H1819",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1819 Thunder Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "lb192c1za",
                 "nama-produk": "H1820 Dio Elm",
                 "kode-produk": "H1820",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1820 Dio Elm.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "83r5iud9c",
                 "nama-produk": "H1821 Pizebert Cherry",
                 "kode-produk": "H1821",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1821 Pizebert Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "8uzckti5k",
                 "nama-produk": "H1824 Vibrant Oak",
                 "kode-produk": "H1824",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1824 Vibrant Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "38wxb7cus",
                 "nama-produk": "H1826 Nork Walnut",
                 "kode-produk": "H1826",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1826 Nork Walnut.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ymeh2p0dq",
                 "nama-produk": "H1827 Piero Oak(1)",
                 "kode-produk": "H1827",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1827 Piero Oak(1).jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "bczus2vht",
                 "nama-produk": "H1827 Piero Oak",
                 "kode-produk": "H1827",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1827 Piero Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "yiiaoamxn",
                 "nama-produk": "H1829 Nork Silve Oak",
                 "kode-produk": "H1829",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1829 Nork Silve Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "h6ancs9u0",
                 "nama-produk": "H1831 New Zealand Oak",
                 "kode-produk": "H1831",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1831 New Zealand Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "llu1ef4dj",
                 "nama-produk": "H1834 Lime Wood",
                 "kode-produk": "H1834",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1834 Lime Wood.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "azuoriqus",
                 "nama-produk": "H1836 Golden Lush",
                 "kode-produk": "H1836",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1836 Golden Lush.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "e3vnx7h7e",
                 "nama-produk": "H1839 American Bark",
                 "kode-produk": "H1839",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1839 American Bark.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "62qhbzo0m",
                 "nama-produk": "H1842 Marcy Oak",
                 "kode-produk": "H1842",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1842 Marcy Oak.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "s3zxdf68q",
                 "nama-produk": "H1845 Nork Tone",
                 "kode-produk": "H1845",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H1845 Nork Tone.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "i8hvpe6mw",
                 "nama-produk": "H2013 Spec Beech",
                 "kode-produk": "H2013",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2013 Spec Beech.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "9567d6p65",
                 "nama-produk": "H2033 Bamboo Plank",
                 "kode-produk": "H2033",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2033 Bamboo Plank.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "r4dj730fy",
                 "nama-produk": "H2107 Africa Cherry",
                 "kode-produk": "H2107",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2107 Africa Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "02jim7lga",
                 "nama-produk": "H2109 Kango Walnut",
                 "kode-produk": "H2109",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2109 Kango Walnut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "p6o6ebecx",
                 "nama-produk": "H2112 White Maple",
                 "kode-produk": "H2112",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2112 White Maple.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "j35k2nn5t",
                 "nama-produk": "H2116 Noble Beech",
                 "kode-produk": "H2116",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2116 Noble Beech.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "0faplr6xz",
                 "nama-produk": "H2120 Natural Maple",
                 "kode-produk": "H2120",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2120 Natural Maple.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "smsf725s7",
                 "nama-produk": "H2125 Cocoa Oak",
                 "kode-produk": "H2125",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2125 Cocoa Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "iaef271fb",
                 "nama-produk": "H2127 Claudia Pine",
                 "kode-produk": "H2127",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2127 Claudia Pine.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "tr7mjh9ol",
                 "nama-produk": "H2129 Nepal Teak",
                 "kode-produk": "H2129",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2129 Nepal Teak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "0f6ana5k8",
                 "nama-produk": "H2131 Sabah Plank",
                 "kode-produk": "H2131",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2131 Sabah Plank.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ohh067wei",
                 "nama-produk": "H2132 Tasili",
                 "kode-produk": "H2132",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2132 Tasili.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "l3x68tdlp",
                 "nama-produk": "H2188 Straight Vein Teak",
                 "kode-produk": "H2188",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2188 Straight Vein Teak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "2yf3e321b",
                 "nama-produk": "H2217 Swiss Pine",
                 "kode-produk": "H2217",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2217 Swiss Pine.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "sjcykuhbt",
                 "nama-produk": "H2226 Pearl Wenge",
                 "kode-produk": "H2226",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2226 Pearl Wenge.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "hmsat871v",
                 "nama-produk": "H2249 Spec Cherry",
                 "kode-produk": "H2249",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2249 Spec Cherry.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "4rt0g8kkb",
                 "nama-produk": "H2319 Pink Oak",
                 "kode-produk": "H2319",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2319 Pink Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "vftvj3ahi",
                 "nama-produk": "H2319 Pink Oak",
                 "kode-produk": "H2319",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2319 Pink Oak.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "4zf4mwq2w",
                 "nama-produk": "H2331 Doughlas Fur",
                 "kode-produk": "H2331",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2331 Doughlas Fur.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "jkzle8l1t",
                 "nama-produk": "H2332 Chestnut",
                 "kode-produk": "H2332",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2332 Chestnut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "fkesiulml",
                 "nama-produk": "H2336 Ivory Pine",
                 "kode-produk": "H2336",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2336 Ivory Pine.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "kt6tej1sz",
                 "nama-produk": "H2402 Comet Plank",
                 "kode-produk": "H2402",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2402 Comet Plank.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ns5hn9l0n",
                 "nama-produk": "H2402 Comet Plank",
                 "kode-produk": "H2402",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2402 Comet Plank.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "xq501kiio",
                 "nama-produk": "H2403 American Maple",
                 "kode-produk": "H2403",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2403 American Maple.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "89jbtcahl",
                 "nama-produk": "H2408 Jemica Cherry",
                 "kode-produk": "H2408",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2408 Jemica Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "rlylbbely",
                 "nama-produk": "H2409 Grey Jemica",
                 "kode-produk": "H2409",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2409 Grey Jemica.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "84ul809xa",
                 "nama-produk": "H2505 Seta Cherry",
                 "kode-produk": "H2505",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2505 Seta Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "w1njcom74",
                 "nama-produk": "H2526 Exotic Wood",
                 "kode-produk": "H2526",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2526 Exotic Wood.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "acrp03lkh",
                 "nama-produk": "H2528 Peninsula Teak",
                 "kode-produk": "H2528",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2528 Peninsula Teak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "bje6dxgfe",
                 "nama-produk": "H2577 Brook Walnut",
                 "kode-produk": "H2577",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2577 Brook Walnut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "9kwxuhc2g",
                 "nama-produk": "H2968 Elegant Cherry",
                 "kode-produk": "H2968",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2968 Elegant Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "2n1yy4omv",
                 "nama-produk": "H2982 Winter Pear",
                 "kode-produk": "H2982",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2982 Winter Pear.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "zzpib0pr3",
                 "nama-produk": "H2998 Dark Silver",
                 "kode-produk": "H2998",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2998 Dark Silver.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "pppptbypk",
                 "nama-produk": "H2I28 Amazon Teak",
                 "kode-produk": "H2I28",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H2I28 Amazon Teak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "aefaiadmw",
                 "nama-produk": "H3039 Vancouver Oak",
                 "kode-produk": "H3039",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H3039 Vancouver Oak.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "02r60y1v2",
                 "nama-produk": "H3123 Straight Oak",
                 "kode-produk": "H3123",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H3123 Straight Oak.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "o72o9473o",
                 "nama-produk": "H369 Brown Maple",
                 "kode-produk": "H369",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H369 Brown Maple.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "mgrn1eh1b",
                 "nama-produk": "H4110 Irian Teak",
                 "kode-produk": "H4110",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H4110 Irian Teak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "7eo5t1eh6",
                 "nama-produk": "H5005 Select Cherry",
                 "kode-produk": "H5005",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H5005 Select Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "1sb44sgeg",
                 "nama-produk": "H5036 Light Oak",
                 "kode-produk": "H5036",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H5036 Light Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "2e2o8z4fr",
                 "nama-produk": "H5038 Cherry Strand",
                 "kode-produk": "H5038",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H5038 Cherry Strand.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "pqpmqg2dd",
                 "nama-produk": "H5039 Lincoln Walnut",
                 "kode-produk": "H5039",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H5039 Lincoln Walnut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "vvqjxmwos",
                 "nama-produk": "H5261 Sandy Sakura",
                 "kode-produk": "H5261",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H5261 Sandy Sakura.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "3trpfybrv",
                 "nama-produk": "H5478 Dune Oak",
                 "kode-produk": "H5478",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H5478 Dune Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "skd6fj5mv",
                 "nama-produk": "H5883 Mocha Ash",
                 "kode-produk": "H5883",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H5883 Mocha Ash.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "580fewex1",
                 "nama-produk": "H6055 Antique Walnut",
                 "kode-produk": "H6055",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H6055 Antique Walnut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "eg077oyui",
                 "nama-produk": "H6233 Miracle Cherry",
                 "kode-produk": "H6233",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H6233 Miracle Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "vxzoi0c2d",
                 "nama-produk": "H6263 Burma Teak",
                 "kode-produk": "H6263",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H6263 Burma Teak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "xzmpb13m5",
                 "nama-produk": "H6288 Fresh Pine",
                 "kode-produk": "H6288",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H6288 Fresh Pine.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "whcuvg1x6",
                 "nama-produk": "H6297 Boston Maple",
                 "kode-produk": "H6297",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H6297 Boston Maple.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "rnj9yujyi",
                 "nama-produk": "H6406 Moca Wenge",
                 "kode-produk": "H6406",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H6406 Moca Wenge.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "oiwovq9iv",
                 "nama-produk": "H6407 Peach Wenge",
                 "kode-produk": "H6407",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H6407 Peach Wenge.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "brgy1l1da",
                 "nama-produk": "H6412 Light Millet",
                 "kode-produk": "H6412",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H6412 Light Millet.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ga766asq3",
                 "nama-produk": "H7028 Burn Strand",
                 "kode-produk": "H7028",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H7028 Burn Strand.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "cdlpg06fx",
                 "nama-produk": "H7048 Compact Wood",
                 "kode-produk": "H7048",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H7048 Compact Wood.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "c3renv9n1",
                 "nama-produk": "H7088A New Venice Walnut",
                 "kode-produk": "H7088A",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H7088A New Venice Walnut.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "2uax5rk6p",
                 "nama-produk": "H8007 Norwegia Pine",
                 "kode-produk": "H8007",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8007 Norwegia Pine.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "8spgmy3h9",
                 "nama-produk": "H8010 Sungkai",
                 "kode-produk": "H8010",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8010 Sungkai.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "lo1gjmwfn",
                 "nama-produk": "H8023 Bronie Pine",
                 "kode-produk": "H8023",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8023 Bronie Pine.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ya86rui94",
                 "nama-produk": "H8072 Black Delicacy",
                 "kode-produk": "H8072",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8072 Black Delicacy.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "f1a50bz9q",
                 "nama-produk": "H8077 Olive",
                 "kode-produk": "H8077",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8077 Olive.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "72r8bgyk0",
                 "nama-produk": "H8086 Cherry",
                 "kode-produk": "H8086",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8086 Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "1kkiyedq4",
                 "nama-produk": "H8088 Rose Oak",
                 "kode-produk": "H8088",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8088 Rose Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "b9uniywph",
                 "nama-produk": "H8102 Asian Oak",
                 "kode-produk": "H8102",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8102 Asian Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "2ntawtmut",
                 "nama-produk": "H8105 Canadian Maple",
                 "kode-produk": "H8105",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8105 Canadian Maple.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "pet6eaisd",
                 "nama-produk": "H8108 Cool Spruce",
                 "kode-produk": "H8108",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8108 Cool Spruce.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "6g129u1dd",
                 "nama-produk": "H8128 Vega",
                 "kode-produk": "H8128",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8128 Vega.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "mfbe2yeiq",
                 "nama-produk": "H8131 White Dune",
                 "kode-produk": "H8131",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8131 White Dune.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "lm8a70apr",
                 "nama-produk": "H8166 Regia",
                 "kode-produk": "H8166",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8166 Regia.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "a99df3l3x",
                 "nama-produk": "H8172 Premium Wood",
                 "kode-produk": "H8172",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8172 Premium Wood.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "67kosx8qp",
                 "nama-produk": "H8725 Classic Caramel(1)",
                 "kode-produk": "H8725",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8725 Classic Caramel(1).jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "zqipnw0x3",
                 "nama-produk": "H8725 Classic Caramel",
                 "kode-produk": "H8725",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8725 Classic Caramel.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "r7j4mgom9",
                 "nama-produk": "H8726 Cinder",
                 "kode-produk": "H8726",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8726 Cinder.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "nb28svq8m",
                 "nama-produk": "H8845 Bleach Legno",
                 "kode-produk": "H8845",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8845 Bleach Legno.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "bax31nvcl",
                 "nama-produk": "H8848 Light Pearwood",
                 "kode-produk": "H8848",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8848 Light Pearwood.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "3eajy13w5",
                 "nama-produk": "H8848 Light Pearwood",
                 "kode-produk": "H8848",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8848 Light Pearwood.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "m5kzm7ck3",
                 "nama-produk": "H8866 New Oiled Legno",
                 "kode-produk": "H8866",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8866 New Oiled Legno.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "urlxp5ce8",
                 "nama-produk": "H8I45 Big Ebony",
                 "kode-produk": "H8I45",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H8I45 Big Ebony.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "imd8ujfyu",
                 "nama-produk": "H9000A New Sapele",
                 "kode-produk": "H9000A",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H9000A New Sapele.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "f53a7sx48",
                 "nama-produk": "H9011 Acacia Wood",
                 "kode-produk": "H9011",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H9011 Acacia Wood.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "77s1wd58l",
                 "nama-produk": "H9019 Classic Cherry",
                 "kode-produk": "H9019",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H9019 Classic Cherry.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "obgevat6p",
                 "nama-produk": "H9022 British Oak",
                 "kode-produk": "H9022",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H9022 British Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ctdf5lbln",
                 "nama-produk": "H9031 Walnut",
                 "kode-produk": "H9031",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H9031 Walnut.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "hmr0qooyo",
                 "nama-produk": "H9047 New Cherry",
                 "kode-produk": "H9047",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H9047 New Cherry.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "v7ztywyqk",
                 "nama-produk": "H9053 Oak",
                 "kode-produk": "H9053",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H9053 Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "5uxc0w91v",
                 "nama-produk": "H9057 Silk Oak",
                 "kode-produk": "H9057",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H9057 Silk Oak.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "r7vycckgw",
                 "nama-produk": "H9066 Europe Zebra",
                 "kode-produk": "H9066",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H9066 Europe Zebra.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "7evm54e20",
                 "nama-produk": "H9077 Vienna Maple",
                 "kode-produk": "H9077",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H9077 Vienna Maple.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "hh2l1f743",
                 "nama-produk": "H9088 Scotland Alder",
                 "kode-produk": "H9088",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H9088 Scotland Alder.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "cssiro8vt",
                 "nama-produk": "H9437 Chroma Wood",
                 "kode-produk": "H9437",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H9437 Chroma Wood.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "vh8mvsjv1",
                 "nama-produk": "H9727 Makassar Wood",
                 "kode-produk": "H9727",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain/H9727 Makassar Wood.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               }
             ]
           },
@@ -2346,147 +2671,168 @@
                 "nama-produk": "4H039G Smooky Bamboo Gloss",
                 "kode-produk": "4H039G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/4H039G Smooky Bamboo Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "15r75zhom",
                 "nama-produk": "4H078G White Larch Gloss",
                 "kode-produk": "4H078G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/4H078G White Larch Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "0j9xh0k4t",
                 "nama-produk": "4H1643G Lumber Jack Gloss",
                 "kode-produk": "4H1643G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/4H1643G Lumber Jack Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "l7y7eru7y",
                 "nama-produk": "4H1693G Locust Wood Gloss",
                 "kode-produk": "4H1693G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/4H1693G Locust Wood Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ldeq9p62c",
                 "nama-produk": "4H1696G Adam Grey Oak Gloss",
                 "kode-produk": "4H1696G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/4H1696G Adam Grey Oak Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "s115hhf2i",
                 "nama-produk": "4H1820G Dio Elm Gloss",
                 "kode-produk": "4H1820G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/4H1820G Dio Elm Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "od882g9oi",
                 "nama-produk": "4H1824G Vibrant Oak Gloss",
                 "kode-produk": "4H1824G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/4H1824G Vibrant Oak Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "o51lnp8xe",
                 "nama-produk": "4H1836G Golden Lush Gloss",
                 "kode-produk": "4H1836G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/4H1836G Golden Lush Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "95xu4zn4w",
                 "nama-produk": "4H8066G Viva Gloss",
                 "kode-produk": "4H8066G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/4H8066G Viva Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "cr2dd7xx5",
                 "nama-produk": "4H8145G Big Ebony Gloss",
                 "kode-produk": "4H8145G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/4H8145G Big Ebony Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "jyw2jfsqa",
                 "nama-produk": "4H9019G Classic Cherry Gloss",
                 "kode-produk": "4H9019G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/4H9019G Classic Cherry Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "r399rzdpk",
                 "nama-produk": "5H081G Ramos Gloss",
                 "kode-produk": "5H081G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/5H081G Ramos Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "hjt0rnt4j",
                 "nama-produk": "5H1642G Piero Zebra Gloss",
                 "kode-produk": "5H1642G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/5H1642G Piero Zebra Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "mqkdqt5lm",
                 "nama-produk": "5H1807G Shart Maple Gloss",
                 "kode-produk": "5H1807G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/5H1807G Shart Maple Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "g5r4wijro",
                 "nama-produk": "5H5226G Clear Walnut Gloss",
                 "kode-produk": "5H5226G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/5H5226G Clear Walnut Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "yyb2jdc9w",
                 "nama-produk": "5H6095G Lace Cherry Gloss",
                 "kode-produk": "5H6095G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/5H6095G Lace Cherry Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "5sbm8lg6j",
                 "nama-produk": "5H6227G Clear Pine Gloss",
                 "kode-produk": "5H6227G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/5H6227G Clear Pine Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "2bv6c903h",
                 "nama-produk": "5H6228G Fresh Pine Gloss",
                 "kode-produk": "5H6228G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/5H6228G Fresh Pine Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "3n0a4fjdw",
                 "nama-produk": "5H6233G Miracle Cherry Gloss",
                 "kode-produk": "5H6233G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/5H6233G Miracle Cherry Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "k2arb6wkq",
                 "nama-produk": "5H808G Cartier Walnut Gloss",
                 "kode-produk": "5H808G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/5H808G Cartier Walnut Gloss.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "lsycss9s0",
                 "nama-produk": "7H098G Amazonas Gloss",
                 "kode-produk": "7H098G",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Gloss/7H098G Amazonas Gloss.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               }
             ]
           },
@@ -2499,42 +2845,48 @@
                 "nama-produk": "6H053S Cedar Super",
                 "kode-produk": "6H053S",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Super/6H053S Cedar Super.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "nye79dxld",
                 "nama-produk": "6H054S Rwanda Maple Super",
                 "kode-produk": "6H054S",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Super/6H054S Rwanda Maple Super.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "ai4rfrwjw",
                 "nama-produk": "6H0565 Brown Walnut Super",
                 "kode-produk": "6H0565",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Super/6H0565 Brown Walnut Super.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "rfyud9swu",
                 "nama-produk": "6H057S Origin Teak Super",
                 "kode-produk": "6H057S",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Super/6H057S Origin Teak Super.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "dzdnscroa",
                 "nama-produk": "6H058S Ice Oak Super",
                 "kode-produk": "6H058S",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Super/6H058S Ice Oak Super.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "80halkobo",
                 "nama-produk": "6H060S Kassod Wood Super",
                 "kode-produk": "6H060S",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Super/6H060S Kassod Wood Super.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               }
             ]
           },
@@ -2547,322 +2899,368 @@
                 "nama-produk": "7H021NT Japan Ash NT",
                 "kode-produk": "7H021NT",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/7H021NT Japan Ash NT.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "2fg5tuvlm",
                 "nama-produk": "7H023B Webbing Wood B",
                 "kode-produk": "7H023B",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/7H023B Webbing Wood B.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "qryryksx3",
                 "nama-produk": "7H032NT Sunny Teak NT",
                 "kode-produk": "7H032NT",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/7H032NT Sunny Teak NT.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "yw4uzv5b2",
                 "nama-produk": "7H037NT White Larch NT",
                 "kode-produk": "7H037NT",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/7H037NT White Larch NT.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "65tjbrnxf",
                 "nama-produk": "7H041NT London Oak NT",
                 "kode-produk": "7H041NT",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/7H041NT London Oak NT.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "6xq5eqczn",
                 "nama-produk": "7H1613NT Ottawa Maple NT",
                 "kode-produk": "7H1613NT",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/7H1613NT Ottawa Maple NT.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "31lheun6p",
                 "nama-produk": "7H1826NT Nork Walnut NT",
                 "kode-produk": "7H1826NT",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/7H1826NT Nork Walnut NT.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "d8yr3899v",
                 "nama-produk": "7H5039NT Lincoln Walnut NT",
                 "kode-produk": "7H5039NT",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/7H5039NT Lincoln Walnut NT.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "wux2tzbmx",
                 "nama-produk": "7H5261NT Sandy Sakura NT",
                 "kode-produk": "7H5261NT",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/7H5261NT Sandy Sakura NT.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "221frr8hv",
                 "nama-produk": "8H015CT Origin Teak CT",
                 "kode-produk": "8H015CT",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H015CT Origin Teak CT.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "0fl0yhfnd",
                 "nama-produk": "8H017CT Ice Oak CT",
                 "kode-produk": "8H017CT",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H017CT Ice Oak CT.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "c7yqzbhvd",
                 "nama-produk": "8H019NT Alaska Ash NT",
                 "kode-produk": "8H019NT",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H019NT Alaska Ash NT.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "izn3296r5",
                 "nama-produk": "8H069RH Design White RH",
                 "kode-produk": "8H069RH",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H069RH Design White RH.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "wot1tf0b7",
                 "nama-produk": "8H1082NRE Glory Cherry NRE",
                 "kode-produk": "8H1082NRE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H1082NRE Glory Cherry NRE.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "gqxijgc6i",
                 "nama-produk": "8H1619DE Tropical Teak DE",
                 "kode-produk": "8H1619DE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H1619DE Tropical Teak DE.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "rlrah4dlm",
                 "nama-produk": "8H1653NRE Tanny Sawcut NRE",
                 "kode-produk": "8H1653NRE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H1653NRE Tanny Sawcut NRE.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "7hll6pean",
                 "nama-produk": "8H1693DE Locust Wood DE",
                 "kode-produk": "8H1693DE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H1693DE Locust Wood DE.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "jm6qy73vn",
                 "nama-produk": "8H1696RE Adam Grey Oak RE",
                 "kode-produk": "8H1696RE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H1696RE Adam Grey Oak RE.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "5u6bc5xlq",
                 "nama-produk": "8H1806NT Grabra Walnnut NT",
                 "kode-produk": "8H1806NT",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H1806NT Grabra Walnnut NT.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "fhyfqobo0",
                 "nama-produk": "8H1813DE Oak Sawcut DE",
                 "kode-produk": "8H1813DE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H1813DE Oak Sawcut DE.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "1rq0ej91q",
                 "nama-produk": "8H1814NRE Elenza NRE",
                 "kode-produk": "8H1814NRE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H1814NRE Elenza NRE.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "qo20praou",
                 "nama-produk": "8H1815ET Unique Terin ET",
                 "kode-produk": "8H1815ET",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H1815ET Unique Terin ET.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "vjb2dhkke",
                 "nama-produk": "8H1824ET Vibrant Oak ET",
                 "kode-produk": "8H1824ET",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H1824ET Vibrant Oak ET.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "xnd788dbs",
                 "nama-produk": "8H1826NRE Nork Walnut NRE",
                 "kode-produk": "8H1826NRE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H1826NRE Nork Walnut NRE.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "jjl4ra1aa",
                 "nama-produk": "8H1842ET Marcy Oak ET",
                 "kode-produk": "8H1842ET",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H1842ET Marcy Oak ET.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "u3l2nbpbn",
                 "nama-produk": "8H2188DE Straight Vein Teak DE",
                 "kode-produk": "8H2188DE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H2188DE Straight Vein Teak DE.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "49dx27zgm",
                 "nama-produk": "8H2188DE Straiht Vein Teak DE",
                 "kode-produk": "8H2188DE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H2188DE Straiht Vein Teak DE.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "bapbepeav",
                 "nama-produk": "8H2188NRE Straight Vein Teak NRE",
                 "kode-produk": "8H2188NRE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H2188NRE Straight Vein Teak NRE.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "o9dktf657",
                 "nama-produk": "8H2336LN Ivory Pine LN",
                 "kode-produk": "8H2336LN",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H2336LN Ivory Pine LN.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "3th94zm49",
                 "nama-produk": "8H2402RE Comet Plank RE",
                 "kode-produk": "8H2402RE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H2402RE Comet Plank RE.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "iwdhd0ocz",
                 "nama-produk": "8H2828ML Neon Pine ML",
                 "kode-produk": "8H2828ML",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H2828ML Neon Pine ML.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "rl680od1p",
                 "nama-produk": "8H3909RH Black RH",
                 "kode-produk": "8H3909RH",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H3909RH Black RH.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "3pmy391kl",
                 "nama-produk": "8H5038DE Cherry Strand DE",
                 "kode-produk": "8H5038DE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H5038DE Cherry Strand DE.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "zh7arjp9o",
                 "nama-produk": "8H6055DE Antique Walnut DE",
                 "kode-produk": "8H6055DE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H6055DE Antique Walnut DE.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "l2d37mwos",
                 "nama-produk": "8H6263NRE Burma Teak NRE",
                 "kode-produk": "8H6263NRE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H6263NRE Burma Teak NRE.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "vn41kv15k",
                 "nama-produk": "8H8066LN Viva LN",
                 "kode-produk": "8H8066LN",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H8066LN Viva LN.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "39igg6v46",
                 "nama-produk": "8H8077LN Olive LN",
                 "kode-produk": "8H8077LN",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H8077LN Olive LN.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "cezkieu89",
                 "nama-produk": "8H8102DE Asian Oak DE",
                 "kode-produk": "8H8102DE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H8102DE Asian Oak DE.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "nt9oh2f41",
                 "nama-produk": "8H8167NRE Mocha Oak NRE",
                 "kode-produk": "8H8167NRE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H8167NRE Mocha Oak NRE.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "sx6pdn3u1",
                 "nama-produk": "8H8726RE Cinder RE",
                 "kode-produk": "8H8726RE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H8726RE Cinder RE.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "vu6lppc5c",
                 "nama-produk": "8H8845DE Bleach Legno DE",
                 "kode-produk": "8H8845DE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H8845DE Bleach Legno DE.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "wlyts050b",
                 "nama-produk": "8H9019LN Classic Cherry LN",
                 "kode-produk": "8H9019LN",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H9019LN Classic Cherry LN.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "jggje6bk8",
                 "nama-produk": "8H90570W Silk Oak 0W",
                 "kode-produk": "8H90570W",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H90570W Silk Oak 0W.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "giy8h4hfe",
                 "nama-produk": "8H9480NG Spec Pine NG",
                 "kode-produk": "8H9480NG",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H9480NG Spec Pine NG.png",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "12pl6fpdl",
                 "nama-produk": "8H9843NE Grey Elm NE",
                 "kode-produk": "8H9843NE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H9843NE Grey Elm NE.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               },
               {
                 "id-produk": "tjj4bh548",
                 "nama-produk": "8H9862NRE Taxus Chinensis NRE",
                 "kode-produk": "8H9862NRE",
                 "image-produk": "/data/hpl/hpl-woodgrain/Woodgrain Texture/8H9862NRE Taxus Chinensis NRE.jpg",
-                "type": "product"
+                "type": "product",
+                "description": "-"
               }
             ]
           }
@@ -2878,67 +3276,78 @@
         "id-produk": "pvc3mm001",
         "nama-produk": "PVC Board 3mm",
         "kode-produk": "PVC",
-        "image-produk": "/data/pvc-board/PVC Board 3mm.jfif"
+        "image-produk": "/data/pvc-board/PVC Board 3mm.jfif",
+        "description": "3*1220*2440mm 0.50g/cm3 | 4.47 kg"
       },
       {
         "id-produk": "pvc5mm002",
         "nama-produk": "PVC Board 5mm",
         "kode-produk": "PVC",
-        "image-produk": "/data/pvc-board/PVC Board 5mm.jfif"
+        "image-produk": "/data/pvc-board/PVC Board 5mm.jfif",
+        "description": "5*1220*2440mm 0.50g/cm3 | 7.44 kg"
       },
       {
         "id-produk": "pvc6mm003",
         "nama-produk": "PVC Board 6mm",
         "kode-produk": "PVC",
-        "image-produk": "/data/pvc-board/PVC Board 6mm.jfif"
+        "image-produk": "/data/pvc-board/PVC Board 6mm.jfif",
+        "description": "6*1220*2440mm 0.50g/cm3 | 8.93 kg"
       },
       {
         "id-produk": "pvc8mm004",
         "nama-produk": "PVC Board 8mm",
         "kode-produk": "PVC",
-        "image-produk": "/data/pvc-board/PVC Board 8mm.jfif"
+        "image-produk": "/data/pvc-board/PVC Board 8mm.jfif",
+        "description": "8*1220*2440mm 0.50g/cm3 | 11.91 kg"
       },
       {
         "id-produk": "pvc9mm005",
         "nama-produk": "PVC Board 9mm",
         "kode-produk": "PVC",
-        "image-produk": "/data/pvc-board/PVC Board 9mm.jfif"
+        "image-produk": "/data/pvc-board/PVC Board 9mm.jfif",
+        "description": "9*1220*2440mm 0.50g/cm3 | 13.4 kg"
       },
       {
         "id-produk": "pvc10mm006",
         "nama-produk": "PVC Board 10mm",
         "kode-produk": "PVC",
-        "image-produk": "/data/pvc-board/PVC Board 10mm.jfif"
+        "image-produk": "/data/pvc-board/PVC Board 10mm.jfif",
+        "description": "10*1220*2440mm 0.50g/cm3 | 14.88 kg"
       },
       {
         "id-produk": "pvc12mm007",
         "nama-produk": "PVC Board 12mm",
         "kode-produk": "PVC",
-        "image-produk": "/data/pvc-board/PVC Board 12mm.jfif"
+        "image-produk": "/data/pvc-board/PVC Board 12mm.jfif",
+        "description": "12*1220*2440mm 0.50g/cm3 | 17.86 kg"
       },
       {
         "id-produk": "pvc15mm008",
         "nama-produk": "PVC Board 15mm",
         "kode-produk": "PVC",
-        "image-produk": "/data/pvc-board/PVC Board 15mm.jfif"
+        "image-produk": "/data/pvc-board/PVC Board 15mm.jfif",
+        "description": "15*1220*2440mm 0.50g/cm3 | 22.33 kg"
       },
       {
         "id-produk": "pvc18mm009",
         "nama-produk": "PVC Board 18mm",
         "kode-produk": "PVC",
-        "image-produk": "/data/pvc-board/PVC Board 18mm.jfif"
+        "image-produk": "/data/pvc-board/PVC Board 18mm.jfif",
+        "description": "18*1220*2440mm 0.50g/cm3 | 26.79 kg"
       },
       {
         "id-produk": "pvc20mm010",
         "nama-produk": "PVC Board 20mm",
         "kode-produk": "PVC",
-        "image-produk": "/data/pvc-board/PVC Board 20mm.jfif"
+        "image-produk": "/data/pvc-board/PVC Board 20mm.jfif",
+        "description": "20*1220*2440mm 0.50g/cm3 | 29.7 kg"
       },
       {
         "id-produk": "pvc25mm011",
         "nama-produk": "PVC Board 25mm",
         "kode-produk": "PVC",
-        "image-produk": "/data/pvc-board/PVC Board 25mm.jfif"
+        "image-produk": "/data/pvc-board/PVC Board 25mm.jfif",
+        "description": "25*1220*2440mm 0.50g/cm3 | 37.2 kg"
       }
     ]
   },
@@ -2950,37 +3359,43 @@
         "id-produk": "z2311don6",
         "nama-produk": "SPCM001 OAK",
         "kode-produk": "SPCM001",
-        "image-produk": "/data/spc-flooring/SPCM001 OAK.jpeg"
+        "image-produk": "/data/spc-flooring/SPCM001 OAK.jpeg",
+        "description": "-"
       },
       {
         "id-produk": "idd2nx8ow",
         "nama-produk": "SPCM026 WHITE OAK",
         "kode-produk": "SPCM026",
-        "image-produk": "/data/spc-flooring/SPCM026 WHITE OAK.jpeg"
+        "image-produk": "/data/spc-flooring/SPCM026 WHITE OAK.jpeg",
+        "description": "-"
       },
       {
         "id-produk": "tpjxxg6w3",
         "nama-produk": "SPCM039 DARK CHERRY",
         "kode-produk": "SPCM039",
-        "image-produk": "/data/spc-flooring/SPCM039 DARK CHERRY.jpeg"
+        "image-produk": "/data/spc-flooring/SPCM039 DARK CHERRY.jpeg",
+        "description": "-"
       },
       {
         "id-produk": "ykdd2704a",
         "nama-produk": "SPCM052 PINE",
         "kode-produk": "SPCM052",
-        "image-produk": "/data/spc-flooring/SPCM052 PINE.jpeg"
+        "image-produk": "/data/spc-flooring/SPCM052 PINE.jpeg",
+        "description": "-"
       },
       {
         "id-produk": "fwx9q7hk5",
         "nama-produk": "SPCM054 TEAKWOOD",
         "kode-produk": "SPCM054",
-        "image-produk": "/data/spc-flooring/SPCM054 TEAKWOOD.jpeg"
+        "image-produk": "/data/spc-flooring/SPCM054 TEAKWOOD.jpeg",
+        "description": "-"
       },
       {
         "id-produk": "93excelfw",
         "nama-produk": "SPCM247 WALNUT",
         "kode-produk": "SPCM247",
-        "image-produk": "/data/spc-flooring/SPCM247 WALNUT.jpeg"
+        "image-produk": "/data/spc-flooring/SPCM247 WALNUT.jpeg",
+        "description": "-"
       }
     ]
   },
@@ -2992,19 +3407,22 @@
         "id-produk": "3nd6nis35",
         "nama-produk": "HV6006 Classic Legno",
         "kode-produk": "HV6006",
-        "image-produk": "/data/vinyl-flooring/HV6006 Classic Legno.jfif"
+        "image-produk": "/data/vinyl-flooring/HV6006 Classic Legno.jfif",
+        "description": "-"
       },
       {
         "id-produk": "otb7k6rz1",
         "nama-produk": "HV6110 White Oak",
         "kode-produk": "HV6110",
-        "image-produk": "/data/vinyl-flooring/HV6110 White Oak.jfif"
+        "image-produk": "/data/vinyl-flooring/HV6110 White Oak.jfif",
+        "description": "-"
       },
       {
         "id-produk": "6reux8lrg",
         "nama-produk": "HV6140 Maple",
         "kode-produk": "HV6140",
-        "image-produk": "/data/vinyl-flooring/HV6140 Maple.jfif"
+        "image-produk": "/data/vinyl-flooring/HV6140 Maple.jfif",
+        "description": "-"
       }
     ]
   },
@@ -3016,19 +3434,22 @@
         "id-produk": "sgfq3tust",
         "nama-produk": "Decking Black Ulin",
         "kode-produk": "Decking",
-        "image-produk": "/data/wpc-pooldeck/Decking Black Ulin.jpg"
+        "image-produk": "/data/wpc-pooldeck/Decking Black Ulin.jpg",
+        "description": "-"
       },
       {
         "id-produk": "1hsy8h0if",
         "nama-produk": "Decking Brown Walnut",
         "kode-produk": "Decking",
-        "image-produk": "/data/wpc-pooldeck/Decking Brown Walnut.jpg"
+        "image-produk": "/data/wpc-pooldeck/Decking Brown Walnut.jpg",
+        "description": "-"
       },
       {
         "id-produk": "n81kjqlt4",
         "nama-produk": "Decking Red Bingkirai",
         "kode-produk": "Decking",
-        "image-produk": "/data/wpc-pooldeck/Decking Red Bingkirai.jpg"
+        "image-produk": "/data/wpc-pooldeck/Decking Red Bingkirai.jpg",
+        "description": "-"
       }
     ]
   },
@@ -3040,49 +3461,57 @@
         "id-produk": "5rpe43kwi",
         "nama-produk": "Apple Tree WPC",
         "kode-produk": "Apple",
-        "image-produk": "/data/wpc-wallpanel/Apple-Tree/Apple Tree WPC.jpg"
+        "image-produk": "/data/wpc-wallpanel/Apple-Tree/Apple Tree WPC.jpg",
+        "description": "-"
       },
       {
         "id-produk": "br2plgcje",
         "nama-produk": "Chery WPC",
         "kode-produk": "Chery",
-        "image-produk": "/data/wpc-wallpanel/Chery/Chery WPC.jpg"
+        "image-produk": "/data/wpc-wallpanel/Chery/Chery WPC.jpg",
+        "description": "-"
       },
       {
         "id-produk": "mjqrx44io",
         "nama-produk": "Chestnut WPC",
         "kode-produk": "Chestnut",
-        "image-produk": "/data/wpc-wallpanel/Chestnut/Chestnut WPC.jpg"
+        "image-produk": "/data/wpc-wallpanel/Chestnut/Chestnut WPC.jpg",
+        "description": "-"
       },
       {
         "id-produk": "6ia917qx0",
         "nama-produk": "Elm WPC",
         "kode-produk": "Elm",
-        "image-produk": "/data/wpc-wallpanel/Elm/Elm WPC.jpg"
+        "image-produk": "/data/wpc-wallpanel/Elm/Elm WPC.jpg",
+        "description": "-"
       },
       {
         "id-produk": "tklj0wria",
         "nama-produk": "PINE Wpc",
         "kode-produk": "PINE",
-        "image-produk": "/data/wpc-wallpanel/Pine/PINE Wpc.jpg"
+        "image-produk": "/data/wpc-wallpanel/Pine/PINE Wpc.jpg",
+        "description": "-"
       },
       {
         "id-produk": "gzl1o9xs5",
         "nama-produk": "Sungkai WPC",
         "kode-produk": "Sungkai",
-        "image-produk": "/data/wpc-wallpanel/Sungkai/Sungkai WPC.jpg"
+        "image-produk": "/data/wpc-wallpanel/Sungkai/Sungkai WPC.jpg",
+        "description": "-"
       },
       {
         "id-produk": "dj0dfo38y",
         "nama-produk": "Teak Wood WPC",
         "kode-produk": "Teak",
-        "image-produk": "/data/wpc-wallpanel/Teak-Wood/Teak Wood WPC.jpg"
+        "image-produk": "/data/wpc-wallpanel/Teak-Wood/Teak Wood WPC.jpg",
+        "description": "-"
       },
       {
         "id-produk": "z1z5fyaai",
         "nama-produk": "Walnut WPC",
         "kode-produk": "Walnut",
-        "image-produk": "/data/wpc-wallpanel/Walnuts/Walnut WPC.jpg"
+        "image-produk": "/data/wpc-wallpanel/Walnuts/Walnut WPC.jpg",
+        "description": "-"
       }
     ]
   }
