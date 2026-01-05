@@ -1,5 +1,5 @@
 import CatalogCover from "../assets/catalog/catalogcover.png";
-import CatalogFile from "../assets/catalog/e-catalog.pdf";
+import CatalogFile from "../assets/catalog/E-CatalogHPLHimmel.pdf";
 import CatalogBg from "../assets/catalog/catalogpagebg.png";
 import FadeIn from "../components/FadeIn";
 

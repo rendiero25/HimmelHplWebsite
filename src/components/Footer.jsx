@@ -23,8 +23,14 @@ const Footer = () => {
               Dapatkan konsultasi gratis bersama <br /> ahlinya <span className="font-normal text-gray-300">
                 dan temukan produk terbaik untuk rumah, <br /> kantor, maupun tempat bisnis Anda.</span>
             </h2>
+
+            <p className='mt-8 text-lg mb-4 text-white'>
+              Jl. Raya Kresek No.8, RT.6/RW.12,  
+              Duri Kosambi, Kecamatan Cengkareng, <br />
+              Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11750
+            </p>
             
-            <div className='flex flex-col md:flex-row justify-between items-left md:items-center mt-16 gap-10'>
+            <div className='flex flex-col md:flex-row justify-between items-left md:items-center mt-8 gap-10'>
               <div className="flex flex-wrap gap-10 text-sm text-gray-300">
                 <div className="flex items-center gap-2">
                   <img src={phoneIcon} alt="Phone" className="w-4 h-4" />

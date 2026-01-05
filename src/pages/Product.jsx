@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import productsData from '../data/products.json';
 import { flattenProducts } from '../utils/productUtils';
-import { BsChevronLeft, BsChevronRight, BsSearch } from 'react-icons/bs';
+import { BsChevronLeft, BsChevronRight, BsSearch, BsChevronDown, BsChevronUp } from 'react-icons/bs';
 import FadeIn from '../components/FadeIn';
 import StaggerContainer from '../components/StaggerContainer';
 import { motion } from 'motion/react';
@@ -23,6 +23,10 @@ const Product = () => {
     const [searchQuery, setSearchQuery] = useState('');
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 30;
+    
+    // HPL Dropdown States
+    const [openDropdown, setOpenDropdown] = useState(null); // 'woodgrain', 'pattern', 'solid', or null
+    const [selectedSubcategory, setSelectedSubcategory] = useState(null); // e.g., 'Woodgrain Texture'
 
     // Sync selectedCategory when categoryFromUrl changes
     useEffect(() => {
@@ -56,13 +60,22 @@ const Product = () => {
         return flattenProducts(currentCategoryData['data-produk']);
     }, [currentCategoryData]);
 
-    // 3. Filter by Search
+    // 3. Filter by Search and Subcategory
     const filteredProducts = useMemo(() => {
-        return flatProducts.filter(p => 
+        let products = flatProducts;
+
+        if (selectedCategory === 'hpl' && selectedSubcategory) {
+            products = products.filter(p => {
+                // Precise folder matching
+                return p['image-produk'].includes(`/${selectedSubcategory}/`);
+            });
+        }
+
+        return products.filter(p => 
             p['nama-produk'].toLowerCase().includes(searchQuery.toLowerCase()) || 
             (p['kode-produk'] && p['kode-produk'].toLowerCase().includes(searchQuery.toLowerCase()))
         );
-    }, [flatProducts, searchQuery]);
+    }, [flatProducts, searchQuery, selectedCategory, selectedSubcategory]);
 
     // 4. Pagination Logic
     const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
@@ -125,6 +138,36 @@ const Product = () => {
         return path; 
     };
 
+    const hplStructure = [
+        {
+            name: 'HPL Woodgrain',
+            id: 'hpl-woodgrain',
+            subitems: ['Woodgrain Texture', 'Woodgrain Super', 'Woodgrain Gloss', 'Woodgrain']
+        },
+        {
+            name: 'HPL Pattern',
+            id: 'hpl-pattern',
+            subitems: ['Pattern', 'Pattern Texture', 'Pattern Metal', 'Pattern Gloss'] // 'Pattern' maps to folder 'Pattern'
+        },
+        {
+            name: 'HPL Solid',
+            id: 'hpl-solid',
+            subitems: ['Solid', 'Solid Gloss', 'Solid Doff']
+        }
+    ];
+
+    const toggleDropdown = (id) => {
+        setOpenDropdown(prev => prev === id ? null : id);
+    };
+
+    const handleHplSubClick = (sub, e) => {
+        e.stopPropagation();
+        setSelectedSubcategory(sub);
+        setSearchParams({ category: 'hpl' }); // Ensure URL stays hpl
+         // Reset page to 1
+        setCurrentPage(1);
+    };
+
     return (
         <div className="pt-10 md:pt-24 min-h-screen bg-gradient-to-b from-white via-third to-third font-primary relative">
             
@@ -137,18 +180,29 @@ const Product = () => {
             {/* Category Tabs */}
             <div className="container mx-auto px-4 xl:px-16 3xl:px-0 mb-12">
                 <div className="flex flex-wrap justify-center gap-4">
-                    {productsData.map((cat) => (
-                        <button
-                            key={cat['kategori-produk']}
-                            onClick={() => handleCategoryChange(cat['kategori-produk'])}
-                            className={`cursor-pointer  px-6 py-2 rounded-full border text-xs uppercase tracking-wider transition-all
-                                ${selectedCategory === cat['kategori-produk'] 
-                                    ? 'bg-primary text-white font-semibold' 
-                                    : 'bg-transparent border-gray-300 text-gray-500 hover:border-gray-400'}`}
-                        >
-                            {formatCategoryTitle(cat['kategori-produk']).replace(/\(.*\)/, '').trim()} {/* Short label for tab */}
-                        </button>
-                    ))}
+                    {productsData.map((cat) => {
+                        const isHpl = cat['kategori-produk'] === 'hpl';
+                        const isActiveCat = selectedCategory === cat['kategori-produk'];
+
+                        return (
+                            <button
+                                key={cat['kategori-produk']}
+                                onClick={() => {
+                                    handleCategoryChange(cat['kategori-produk']);
+                                    if(isHpl) {
+                                         setSelectedSubcategory(null); 
+                                         setOpenDropdown(null);
+                                    }
+                                }}
+                                className={`cursor-pointer px-6 py-2 rounded-full font-bold border text-sm uppercase tracking-wider transition-all
+                                    ${isActiveCat 
+                                        ? 'bg-primary text-white font-semibold' 
+                                        : 'bg-transparent border-gray-300 text-gray-500 hover:border-gray-400'}`}
+                            >
+                                {formatCategoryTitle(cat['kategori-produk']).replace(/\(.*\)/, '').trim()}
+                            </button>
+                        );
+                    })}
                 </div>
             </div>
 
@@ -168,11 +222,44 @@ const Product = () => {
                         placeholder="Search product..." 
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="w-full bg-white rounded-full py-2 px-4 focus:outline-none placeholder-black/50 font-primary"
+                        className="w-full bg-white rounded-full py-4 px-6 focus:outline-none placeholder-black/50 font-primary"
                     />
-                    <BsSearch className="absolute right-0 top-3 text-black/50 mr-4" />
+                    <BsSearch className="absolute right-0 top-5 text-black/50 mr-6" />
                 </div>
             </FadeIn>
+
+            {/* HPL Extended Navigation */}
+            {selectedCategory === 'hpl' && (
+                <div className="container mx-auto -mt-8 flex flex-col md:flex-row justify-start items-start gap-6 py-6 rounded-xl border border-gray-100 animate-fadeIn">
+                        {hplStructure.map((group) => (
+                            <div key={group.id} className="w-full md:w-auto flex flex-col items-center md:items-start min-w-[100px]">
+                                <button 
+                                    onClick={() => toggleDropdown(group.id)}
+                                    className="cursor-pointer border border-primary py-2 px-6 rounded-full flex items-center justify-between w-full md:w-auto gap-2 text-sm font-semibold uppercase tracking-wider text-gray-800 hover:text-primary mb-3 transition-colors p-2 hover:bg-gray-50"
+                                >
+                                    {group.name}
+                                    {openDropdown === group.id ? <BsChevronUp className="text-sm"/> : <BsChevronDown className="text-sm"/>}
+                                </button>
+                                
+                                {/* Dropdown Items */}
+                                {openDropdown === group.id && (
+                                    <div className="flex flex-col gap-2 pl-4 w-full md:w-auto animate-fadeIn">
+                                        {group.subitems.map(sub => (
+                                            <button
+                                                key={sub}
+                                                onClick={(e) => handleHplSubClick(sub, e)}
+                                                className={`cursor-pointer text-sm text-left uppercase tracking-wide transition-all p-2 rounded hover:font-bold
+                                                    ${selectedSubcategory === sub ? 'text-primary font-bold' : ''}`}
+                                            >
+                                                {sub === 'Pattern' ? 'Pattern Pattern' : sub}
+                                            </button>
+                                        ))}
+                                    </div>
+                                )}
+                            </div>
+                        ))}
+                </div>
+            )}
 
             {/* Product Grid */}
             <div className="container mx-auto px-6 xl:px-16 2xl:px-2 mb-16">
@@ -215,7 +302,7 @@ const Product = () => {
 
             {/* Pagination */}
             {totalPages > 1 && (
-                <div className="flex flex-col justify-center items-center gap-10 mb-20 text-xs font-medium"> 
+                <div className="flex flex-col justify-center items-center gap-10 mb-20 text-md font-medium"> 
                    <div className="flex flex-wrap items-center justify-center gap-5 md:gap-2 mx-4">
                      {Array.from({length: totalPages}, (_, i) => i + 1).map(page => (
                         <button
