@@ -2875,52 +2875,70 @@
     "kategori-produk": "pvc-board",
     "data-produk": [
       {
-        "id-produk": "n67bv8l19",
-        "nama-produk": "KL8088",
-        "kode-produk": "-",
-        "image-produk": "/data/pvc-board/KL8088/KL8088.jpg"
+        "id-produk": "pvc3mm001",
+        "nama-produk": "PVC Board 3mm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/pvc-board/PVC Board 3mm.jfif"
       },
       {
-        "id-produk": "42w4efj6z",
-        "nama-produk": "KL8146",
-        "kode-produk": "-",
-        "image-produk": "/data/pvc-board/KL8146/KL8146.jpg"
+        "id-produk": "pvc5mm002",
+        "nama-produk": "PVC Board 5mm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/pvc-board/PVC Board 5mm.jfif"
       },
       {
-        "id-produk": "dzgo3hsw7",
-        "nama-produk": "KL8230",
-        "kode-produk": "-",
-        "image-produk": "/data/pvc-board/KL8230/KL8230.jpg"
+        "id-produk": "pvc6mm003",
+        "nama-produk": "PVC Board 6mm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/pvc-board/PVC Board 6mm.jfif"
       },
       {
-        "id-produk": "uzsmiktnz",
-        "nama-produk": "KL8231",
-        "kode-produk": "-",
-        "image-produk": "/data/pvc-board/KL8231/KL8231.jpg"
+        "id-produk": "pvc8mm004",
+        "nama-produk": "PVC Board 8mm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/pvc-board/PVC Board 8mm.jfif"
       },
       {
-        "id-produk": "31omntqio",
-        "nama-produk": "KL8231-4",
-        "kode-produk": "-",
-        "image-produk": "/data/pvc-board/KL8231-4/KL8231-4.jpg"
+        "id-produk": "pvc9mm005",
+        "nama-produk": "PVC Board 9mm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/pvc-board/PVC Board 9mm.jfif"
       },
       {
-        "id-produk": "lp75kd1nu",
-        "nama-produk": "KL8259-2",
-        "kode-produk": "-",
-        "image-produk": "/data/pvc-board/KL8259-2/KL8259-2.jpg"
+        "id-produk": "pvc10mm006",
+        "nama-produk": "PVC Board 10mm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/pvc-board/PVC Board 10mm.jfif"
       },
       {
-        "id-produk": "7rsgbl0py",
-        "nama-produk": "KL8266",
-        "kode-produk": "-",
-        "image-produk": "/data/pvc-board/KL8266/KL8266.jpg"
+        "id-produk": "pvc12mm007",
+        "nama-produk": "PVC Board 12mm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/pvc-board/PVC Board 12mm.jfif"
       },
       {
-        "id-produk": "uy9k1i6f3",
-        "nama-produk": "KL8267-1",
-        "kode-produk": "-",
-        "image-produk": "/data/pvc-board/KL8267-1/KL8267-1.jpg"
+        "id-produk": "pvc15mm008",
+        "nama-produk": "PVC Board 15mm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/pvc-board/PVC Board 15mm.jfif"
+      },
+      {
+        "id-produk": "pvc18mm009",
+        "nama-produk": "PVC Board 18mm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/pvc-board/PVC Board 18mm.jfif"
+      },
+      {
+        "id-produk": "pvc20mm010",
+        "nama-produk": "PVC Board 20mm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/pvc-board/PVC Board 20mm.jfif"
+      },
+      {
+        "id-produk": "pvc25mm011",
+        "nama-produk": "PVC Board 25mm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/pvc-board/PVC Board 25mm.jfif"
       }
     ]
   },
