@@ -230,7 +230,7 @@ const Product = () => {
 
             {/* HPL Extended Navigation */}
             {selectedCategory === 'hpl' && (
-                <div className="container mx-auto -mt-8 flex flex-col md:flex-row justify-start items-start gap-6 py-6 rounded-xl border border-gray-100 animate-fadeIn">
+                <div className="container mx-auto px-6 xl:px-16 2xl:px-2 -mt-8 flex flex-col md:flex-row justify-start items-start gap-2 xl:gap-6 py-6 rounded-xl border border-gray-100 animate-fadeIn">
                         {hplStructure.map((group) => (
                             <div key={group.id} className="w-full md:w-auto flex flex-col items-center md:items-start min-w-[100px]">
                                 <button 
@@ -394,7 +394,7 @@ const Product = () => {
                          {/* Close Button */}
                          <button 
                             onClick={closeModal}
-                            className="absolute top-2 right-2 md:top-4 md:right-4 z-50 p-2 text-gray-500 hover:text-black transition-colors"
+                            className="cursor-pointer absolute top-2 right-2 md:top-4 md:right-4 z-50 p-2 text-gray-500 hover:text-black transition-colors"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 <line x1="18" y1="6" x2="6" y2="18"></line>

@@ -5,80 +5,17 @@
     "data-produk": [
       {
         "id-produk": "uzfn2cq97",
-        "nama-produk": "Foam Board 10mm",
-        "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 10mm.jpg",
-        "description": "-"
+        "nama-produk": "Edging PVC 2cm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/edging-pvc/edging-pvc-2cm.jpeg",
+        "description": "Tersedia 125 Warna"
       },
       {
         "id-produk": "8qt4selm1",
-        "nama-produk": "Foam Board 12mm",
-        "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 12mm.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "wtj636d10",
-        "nama-produk": "Foam Board 15mm",
-        "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 15mm.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "qa1ec5bsc",
-        "nama-produk": "Foam Board 18mm",
-        "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 18mm.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "ds6ebdf9i",
-        "nama-produk": "Foam Board 20mm",
-        "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 20mm.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "s4bykujmf",
-        "nama-produk": "Foam Board 25mm",
-        "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 25mm.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "prgdwha9h",
-        "nama-produk": "Foam Board 3mm",
-        "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 3mm.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "l9yyf7i2u",
-        "nama-produk": "Foam Board 5mm",
-        "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 5mm.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "yty8i5ozd",
-        "nama-produk": "Foam Board 6mm",
-        "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 6mm.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "9olwzzhc4",
-        "nama-produk": "Foam Board 8mm",
-        "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 8mm.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "5rzw5lzco",
-        "nama-produk": "Foam Board 9mm",
-        "kode-produk": "Foam",
-        "image-produk": "/data/edging-pvc/Foam Board 9mm.jpg",
-        "description": "-"
+        "nama-produk": "Edging PVC 4cm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/edging-pvc/edging-pvc-4cm.jpeg",
+        "description": "Tersedia 125 Warna"
       }
     ]
   },
