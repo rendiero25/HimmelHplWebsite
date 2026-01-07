@@ -1,26 +1,6 @@
 [
   {
     "id": 1,
-    "kategori-produk": "edging-pvc",
-    "data-produk": [
-      {
-        "id-produk": "uzfn2cq97",
-        "nama-produk": "Edging PVC 2cm",
-        "kode-produk": "PVC",
-        "image-produk": "/data/edging-pvc/edging-pvc-2cm.jpeg",
-        "description": "Tersedia 125 Warna"
-      },
-      {
-        "id-produk": "8qt4selm1",
-        "nama-produk": "Edging PVC 4cm",
-        "kode-produk": "PVC",
-        "image-produk": "/data/edging-pvc/edging-pvc-4cm.jpeg",
-        "description": "Tersedia 125 Warna"
-      }
-    ]
-  },
-  {
-    "id": 2,
     "kategori-produk": "hpl",
     "data-produk": [
       {
@@ -3205,8 +3185,9 @@
       }
     ]
   },
+
   {
-    "id": 4,
+    "id": 2,
     "kategori-produk": "pvc-board",
     "data-produk": [
       {
@@ -3288,8 +3269,30 @@
       }
     ]
   },
+
   {
-    "id": 5,
+    "id": 3,
+    "kategori-produk": "edging-pvc",
+    "data-produk": [
+      {
+        "id-produk": "uzfn2cq97",
+        "nama-produk": "Edging PVC 2cm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/edging-pvc/edging-pvc-2cm.jpeg",
+        "description": "Tersedia 69 Warna"
+      },
+      {
+        "id-produk": "8qt4selm1",
+        "nama-produk": "Edging PVC 4cm",
+        "kode-produk": "PVC",
+        "image-produk": "/data/edging-pvc/edging-pvc-4cm.jpeg",
+        "description": "Tersedia 69 Warna"
+      }
+    ]
+  },
+  
+  {
+    "id": 4,
     "kategori-produk": "spc-flooring",
     "data-produk": [
       {
@@ -3336,8 +3339,9 @@
       }
     ]
   },
+
   {
-    "id": 6,
+    "id": 5,
     "kategori-produk": "vinyl-flooring",
     "data-produk": [
       {
@@ -3363,8 +3367,9 @@
       }
     ]
   },
+
   {
-    "id": 7,
+    "id": 6,
     "kategori-produk": "wpc-pooldeck",
     "data-produk": [
       {
@@ -3390,8 +3395,9 @@
       }
     ]
   },
+
   {
-    "id": 8,
+    "id": 7,
     "kategori-produk": "wpc-wallpanel",
     "data-produk": [
       {
