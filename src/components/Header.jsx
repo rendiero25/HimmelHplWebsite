@@ -7,6 +7,8 @@ import tiktokIcon from '../assets/header/tiktok-icon.png';
 import FacebookIconBlack from '../assets/header/facebook-icon-black.png';
 import InstagramIconBlack from '../assets/header/instagram-icon-black.png';
 import TiktokIconBlack from '../assets/header/tiktok-icon-black.png';
+import TokopediaIcon from '../assets/header/tokopediaicon.png';
+import ShopeeIcon from '../assets/header/shopeeicon.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -56,16 +58,27 @@ const Header = () => {
         {/* Right Actions */}
         <div className="flex items-center gap-6">
           {/* Social Icons */}
-          <div className="hidden md:flex items-center gap-16">
-            <a href="https://www.instagram.com/himmel.hpl/?hl=en" className="hover:opacity-80 transition-opacity">
-                <img src={useBlackIcons ? InstagramIconBlack : instagramIcon} alt="Instagram" className="w-6" />
-            </a>
-            <a href="https://www.facebook.com/himmel.hpl/" className="hover:opacity-80 transition-opacity">
-                <img src={useBlackIcons ? FacebookIconBlack : facebookIcon} alt="Facebook" className="w-3" />
-            </a>
-            <a href="https://www.tiktok.com/@himmelhpl" className="hover:opacity-80 transition-opacity">
-                <img src={useBlackIcons ? TiktokIconBlack : tiktokIcon} alt="TikTok" className="w-5" />
-            </a>
+          <div className="hidden md:flex flex-row justify-between gap-8 items-center">
+            <div className="flex flex-row gap-4">
+              <a href="https://www.instagram.com/himmel.hpl/?hl=en" className="hover:opacity-80 transition-opacity">
+                  <img src={useBlackIcons ? InstagramIconBlack : instagramIcon} alt="Instagram" className="w-6" />
+              </a>
+              <a href="https://www.facebook.com/himmel.hpl/" className="hover:opacity-80 transition-opacity">
+                  <img src={useBlackIcons ? FacebookIconBlack : facebookIcon} alt="Facebook" className="w-3" />
+              </a>
+              <a href="https://www.tiktok.com/@himmelhpl" className="hover:opacity-80 transition-opacity">
+                  <img src={useBlackIcons ? TiktokIconBlack : tiktokIcon} alt="TikTok" className="w-5" />
+              </a>
+            </div>
+
+            <div className="flex flex-row gap-4">
+              <a href="https://www.tokopedia.com/himmelofficial" className="hover:opacity-80 transition-opacity">
+                  <img src={TokopediaIcon} alt="Tokopedia" className="w-6" />
+              </a>
+              <a href="https://shopee.co.id/himmel_officialshop" className="hover:opacity-80 transition-opacity">
+                  <img src={ShopeeIcon} alt="Shopee" className="w-6" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

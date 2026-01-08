@@ -51,7 +51,6 @@ const Footer = () => {
                 <a href="#" className="hover:text-white transition-colors">Product</a>
                 <a href="#" className="hover:text-white transition-colors">Catalog</a>
                 <a href="#" className="hover:text-white transition-colors">Instagram</a>
-                <a href="#" className="hover:text-white transition-colors">Kantor</a>
               </div>
             </div>
             
@@ -70,10 +69,17 @@ const Footer = () => {
             
             <div className="flex flex-col md:flex-row justify-between items-center mt-25 text-sm text-white/50 gap-10">
                <span>© 2024 Himmel. All rights reserved. Design and developed by <a href="http://rendiero.site" className="font-bold text-white">rendiero.</a></span>
-               <div className="flex gap-4 ">
-                  <a href="https://www.instagram.com/himmel.hpl/?hl=en" className="hover:opacity-80 transition-opacity">Instagram</a>
-                  <a href="https://www.facebook.com/himmel.hpl/" className="hover:opacity-80 transition-opacity">Facebook</a>
-                  <a href="https://www.tiktok.com/@himmelhpl" className="hover:opacity-80 transition-opacity">TikTok</a>
+               <div className='flex flex-col md:flex-row justify-between items-center gap-10'>
+                <div className="flex gap-2 ">
+                    <a href="https://www.instagram.com/himmel.hpl/?hl=en" className="hover:opacity-80 transition-opacity">Instagram</a>
+                    <a href="https://www.facebook.com/himmel.hpl/" className="hover:opacity-80 transition-opacity">Facebook</a>
+                    <a href="https://www.tiktok.com/@himmelhpl" className="hover:opacity-80 transition-opacity">TikTok</a>
+                </div>
+
+                <div className="flex gap-2">
+                    <a href="https://www.tokopedia.com/himmelofficial" className="hover:opacity-80 transition-opacity">Tokopedia</a>
+                    <a href="https://shopee.co.id/himmel_officialshop" className="hover:opacity-80 transition-opacity">Shopee</a>
+                </div>
                </div>
             </div>
         </div>
