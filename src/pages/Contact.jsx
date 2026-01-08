@@ -95,8 +95,8 @@ const Contact = () => {
                                         ></textarea>
                                     </div>
                                 </div>
-                                <button 
-                                    type="submit" 
+                                <button
+                                    type="submit"
                                     className="mb-10 cursor-pointer w-full bg-gradient-to-r from-primary to-[#801115] hover:bg-[#c41a21] text-white py-4 rounded-sm text-sm font-medium tracking-widest transition-all mt-8"
                                 >
                                     Send to us
