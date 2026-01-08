@@ -22,7 +22,7 @@ const Header = () => {
     <header className="absolute top-0 left-0 w-full z-20 py-6">
       <div className="container mx-auto px-6 xl:px-16 2xl:px-2 flex flex-row justify-between items-center">
         {/* Logo */}
-        <div className="flex flex-row justify-between items-center gap-10 relative">
+        <div className="w-full md:w-auto flex flex-row justify-between items-center gap-10 relative">
           <a href="/">
             <img src={logo} alt="Himmel Logo" className="h-8 md:h-10 object-contain z-30 relative" />
           </a>
@@ -43,6 +43,15 @@ const Header = () => {
             )}
           </button>
 
+          <div className="flex flex-row gap-8">
+              <a href="https://www.tokopedia.com/himmelofficial" className="hover:opacity-80 transition-opacity">
+                  <img src={TokopediaIcon} alt="Tokopedia" className="w-7" />
+              </a>
+              <a href="https://shopee.co.id/himmel_officialshop" className="hover:opacity-80 transition-opacity">
+                  <img src={ShopeeIcon} alt="Shopee" className="w-7" />
+              </a>
+            </div>
+
           {/* Dropdown Menu */}
           {isMenuOpen && (
             <div className="absolute top-full left-0 mt-4 w-55 bg-black/50 backdrop-blur-md rounded-lg p-8 shadow-2xl flex flex-col items-start gap-7 z-30">
@@ -59,7 +68,7 @@ const Header = () => {
         <div className="flex items-center gap-6">
           {/* Social Icons */}
           <div className="hidden md:flex flex-row justify-between gap-8 items-center">
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-row gap-8">
               <a href="https://www.instagram.com/himmel.hpl/?hl=en" className="hover:opacity-80 transition-opacity">
                   <img src={useBlackIcons ? InstagramIconBlack : instagramIcon} alt="Instagram" className="w-6" />
               </a>
@@ -68,15 +77,6 @@ const Header = () => {
               </a>
               <a href="https://www.tiktok.com/@himmelhpl" className="hover:opacity-80 transition-opacity">
                   <img src={useBlackIcons ? TiktokIconBlack : tiktokIcon} alt="TikTok" className="w-5" />
-              </a>
-            </div>
-
-            <div className="flex flex-row gap-4">
-              <a href="https://www.tokopedia.com/himmelofficial" className="hover:opacity-80 transition-opacity">
-                  <img src={TokopediaIcon} alt="Tokopedia" className="w-6" />
-              </a>
-              <a href="https://shopee.co.id/himmel_officialshop" className="hover:opacity-80 transition-opacity">
-                  <img src={ShopeeIcon} alt="Shopee" className="w-6" />
               </a>
             </div>
           </div>
