@@ -42,7 +42,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <img src={mailIcon} alt="Email" className="w-4 h-4" />
-                  <span className='text-white'>marketing@himmelhpl.com</span>
+                  <span className='text-white'>jayalestaribuild@yahoo.com</span>
                 </div>
               </div>
 
