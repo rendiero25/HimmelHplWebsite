@@ -107,6 +107,7 @@ const Product = () => {
     const formatCategoryTitle = (slug) => {
         const map = {
             'hpl': 'High Pressure Laminate (HPL)',
+            'uv-board': 'UV Board',
             'edging-pvc': 'Edging PVC',
             'pvc-board': 'PVC Board',
             'wpc-pooldeck': 'WPC Pool Deck',
@@ -179,7 +180,7 @@ const Product = () => {
 
             {/* Category Tabs */}
             <div className="container mx-auto px-4 xl:px-16 3xl:px-0 mb-12">
-                <div className="flex flex-wrap justify-center gap-4">
+                <div className="flex flex-wrap justify-center gap-2">
                     {productsData.map((cat) => {
                         const isHpl = cat['kategori-produk'] === 'hpl';
                         const isActiveCat = selectedCategory === cat['kategori-produk'];

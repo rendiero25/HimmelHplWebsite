@@ -24,7 +24,7 @@ const Header = () => {
         {/* Logo */}
         <div className="w-full md:w-auto flex flex-row justify-between items-center gap-10 relative">
           <a href="/">
-            <img src={logo} alt="Himmel Logo" className="h-8 md:h-10 object-contain z-30 relative" />
+            <img src={logo} alt="Himmel Logo" className="h-10 md:h-14 object-contain z-30 relative" />
           </a>
 
           {/* Hamburger Menu Button */}

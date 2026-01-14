@@ -3457,5 +3457,68 @@
         "description": "-"
       }
     ]
+  },
+
+  {
+    "id": 8,
+    "kategori-produk": "uv-board",
+    "data-produk": [
+      {
+        "id-produk": "5rpe43kwi",
+        "nama-produk": "UV Board KL8088",
+        "kode-produk": "KL8088",
+        "image-produk": "/data/uv-board/KL8088.jpg",
+        "description": "-"
+      },
+      {
+        "id-produk": "br2plgcje",
+        "nama-produk": "UV Board KL8146",
+        "kode-produk": "KL8146",
+        "image-produk": "/data/uv-board/KL8146.jpg",
+        "description": "-"
+      },
+      {
+        "id-produk": "mjqrx44io",
+        "nama-produk": " UV Board KL8230",
+        "kode-produk": "KL8230",
+        "image-produk": "/data/uv-board/KL8230.jpg",
+        "description": "-"
+      },
+      {
+        "id-produk": "6ia917qx0",
+        "nama-produk": " UV Board KL8231-4",
+        "kode-produk": "KL8231-4",
+        "image-produk": "/data/uv-board/KL8231-4.jpg",
+        "description": "-"
+      },
+      {
+        "id-produk": "tklj0wria",
+        "nama-produk": " UV Board KL8231",
+        "kode-produk": "KL8231",
+        "image-produk": "/data/uv-board/KL8231.jpg",
+        "description": "-"
+      },
+      {
+        "id-produk": "gzl1o9xs5",
+        "nama-produk": " UV Board KL8259-2",
+        "kode-produk": "KL8259-2",
+        "image-produk": "/data/uv-board/KL8259-2.jpg",
+        "description": "-"
+      },
+      {
+        "id-produk": "dj0dfo38y",
+        "nama-produk": " UV Board KL8266",
+        "kode-produk": "KL8266",
+        "image-produk": "/data/uv-board/KL8266.jpg",
+        "description": "-"
+      },
+      {
+        "id-produk": "z1z5fyaai",
+        "nama-produk": " UV Board KL8267-1",
+        "kode-produk": "KL8267-1",
+        "image-produk": "/data/uv-board/KL8267-1.jpg",
+        "description": "-"
+      }
+    ]
   }
 ]
