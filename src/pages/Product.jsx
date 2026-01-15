@@ -38,6 +38,7 @@ const Product = () => {
     // Update URL when category changes
     const handleCategoryChange = (slug) => {
         setSelectedCategory(slug);
+        setSelectedSubcategory(null); // Reset subcategory when changing category
         setSearchParams({ category: slug });
     };
 
@@ -64,16 +65,29 @@ const Product = () => {
     const filteredProducts = useMemo(() => {
         let products = flatProducts;
 
+        // HPL Subcategory filtering
         if (selectedCategory === 'hpl' && selectedSubcategory) {
             products = products.filter(p => {
-                // Precise folder matching
                 return p['image-produk'].includes(`/${selectedSubcategory}/`);
             });
         }
 
+        // WPC Pool Deck, WPC Wall Panel, Flooring subcategory filtering
+        if ((selectedCategory === 'wpc-pooldeck' || selectedCategory === 'wpc-wallpanel' || selectedCategory === 'flooring') && selectedSubcategory) {
+            products = products.filter(p => {
+                return p['image-produk'].includes(`/${selectedSubcategory}/`);
+            });
+        }
+
+        // Only apply search filter if searchQuery is not empty
+        const trimmedSearch = searchQuery.trim().toLowerCase();
+        if (trimmedSearch === '') {
+            return products;
+        }
+
         return products.filter(p => 
-            p['nama-produk'].toLowerCase().includes(searchQuery.toLowerCase()) || 
-            (p['kode-produk'] && p['kode-produk'].toLowerCase().includes(searchQuery.toLowerCase()))
+            p['nama-produk'].toLowerCase().includes(trimmedSearch) || 
+            (p['kode-produk'] && p['kode-produk'].toLowerCase().includes(trimmedSearch))
         );
     }, [flatProducts, searchQuery, selectedCategory, selectedSubcategory]);
 
@@ -111,8 +125,7 @@ const Product = () => {
             'edging-pvc': 'Edging PVC',
             'pvc-board': 'PVC Board',
             'wpc-pooldeck': 'WPC Pool Deck',
-            'spc-flooring': 'SPC Flooring',
-            'vinyl-flooring': 'Vinyl Flooring',
+            'flooring': 'Flooring',
             'wpc-wallpanel': 'WPC Wall Panel'
         };
         return map[slug] || slug.replace('-', ' ');
@@ -124,8 +137,7 @@ const Product = () => {
         if(slug === 'edging-pvc') return "Salah satu produk pelapis sekaligus pelindung sisi samping sebuah furniture seperti meja, lemari maupun backdrop. Edging ini terbuat dari bahan resin sehingga menghasilkan produk yang tahan akan benturan, cocok untuk melindungi sisi samping furniture Anda.";
         if(slug === 'pvc-board') return "Produk material yang dihasilkan melalui pemerosesan dengan menggunakan mesin ekstrusi proses foam. Selain itu pada proses saat produksinya tidak menggunakan bahan-bahan kimia beracun seperti di antaranya asbes, formatin, kadmium, dan timbal. Memiliki bobot yang ringan dan tampilan elegan sangat cocok digunakan untuk membuat interior rumah menjadi lebih indah";
         if(slug === 'wpc-pooldeck') return "Inovasi baru yang menjadi solusi ideal pengganti solid wood decking. Seperti namanya, material WPC ini terbuat dari campuran plastik daur ulang dan kayu natural. Campuran kayu yang digunakan pada WPC diambil dari sisa hasil olahan kayu, seperti misalnya serbuk kayu dan sumber fiber lainnya, seperti bambu atau sekam padi. WPC dikenal awet dan tahan lama";
-        if(slug === 'spc-flooring') return "Tipe material lantai, berbahan utama Stone Polymer Composite (SPC). Dengan unsur komponen adalah bubuk batu alam (limestone) yang dikombinasikan dengan resin (plastic polymer). Pelapis lantai vinyl ini merupakan pengembangan dari versi luxury vinyl tiles (LVT). lantai ini juga dikenal karena ketahananya terhadap air dan goresan, serta mudah dipasang.";
-        if(slug === 'vinyl-flooring') return "Jenis lantai yang terbuat dari plastik polivinil klorida (PVc) yang dicampur dengan bahan-bahan lain seperti plastikizer, pigmen, dan stablizer. Material ini dapat dibuat dalam bentuk lembaran atau tile yang mudah dipotong dan dipasang sesuai dengan ukuran dan bentuk ruangan. Jenis permukaan lantai ini memiliki ciri khasnyater sendiri, yaitu punya motif kayu dengan harga yang terjangkau";
+        if(slug === 'flooring') return "Pilihan terbaik untuk pelapis lantai interior yang menawarkan berbagai material berkualitas tinggi dengan tampilan estetis dan daya tahan optimal. Tersedia dalam berbagai jenis seperti SPC Flooring, Solid Wood Flooring, dan Vinyl Flooring untuk memenuhi kebutuhan interior ruangan Anda.";
         if(slug === 'wpc-wallpanel') return "panel pelapis dinding inovatif yang terbuat dari Wood Plastic Composite, campuran serat kayu/serbuk kayu dan plastik daur ulang, menjadikannya material kuat, tahan air, rayap, dan cuaca, dengan tampilan estetis menyerupai kayu alami, sering digunakan sebagai alternatif modern untuk pelapis dinding interior/eksterior yang mudah dipasang dan minim perawatan.";
         return "Discover our high-quality range of products designed to elevate your interior spaces.";
     };
@@ -157,6 +169,25 @@ const Product = () => {
         }
     ];
 
+    // WPC Pool Deck Subcategory Structure
+    const poolDeckStructure = [
+        { name: 'WPC Pool Deck', id: 'wpc-pooldeck', folderName: 'wpc-pooldeck' },
+        { name: 'Solid Wood Pool Deck', id: 'solidwood-pooldeck', folderName: 'solidwood-pooldeck' }
+    ];
+
+    // WPC Wall Panel Subcategory Structure
+    const wallPanelStructure = [
+        { name: 'WPC Wall Panel', id: 'wpc-wallpanel-sub', folderName: 'wpc-wallpanel' },
+        { name: 'Solid Wood Wall Panel', id: 'solidwood-wallpanel', folderName: 'solidwood-wallpanel' }
+    ];
+
+    // Flooring Subcategory Structure
+    const flooringStructure = [
+        { name: 'SPC Flooring', id: 'spc-flooring', folderName: 'spc-flooring' },
+        { name: 'Solid Wood Flooring', id: 'solidwood-flooring', folderName: 'solidwood-flooring' },
+        { name: 'Vinyl Flooring', id: 'vinyl-flooring', folderName: 'vinyl-flooring' }
+    ];
+
     const toggleDropdown = (id) => {
         setOpenDropdown(prev => prev === id ? null : id);
     };
@@ -169,8 +200,15 @@ const Product = () => {
         setCurrentPage(1);
     };
 
+    const handleSubCategoryClick = (folderName, category, e) => {
+        e.stopPropagation();
+        setSelectedSubcategory(folderName);
+        setSearchParams({ category: category });
+        setCurrentPage(1);
+    };
+
     return (
-        <div className="pt-10 md:pt-24 min-h-screen bg-gradient-to-b from-white via-third to-third font-primary relative">
+        <div className="pt-10 md:pt-24 min-h-screen bg-gradient-to-b from-white via-white to-third font-primary relative">
             
             {/* Header Text */}
             <FadeIn delay={0.2} direction="down" className="text-center py-10 px-4">
@@ -223,7 +261,7 @@ const Product = () => {
                         placeholder="Search product..." 
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="w-full bg-white rounded-full py-4 px-6 focus:outline-none placeholder-black/50 font-primary"
+                        className="w-full bg-third/50 rounded-full py-4 px-6 focus:outline-none placeholder-black/50 font-primary"
                     />
                     <BsSearch className="absolute right-0 top-5 text-black/50 mr-6" />
                 </div>
@@ -231,15 +269,15 @@ const Product = () => {
 
             {/* HPL Extended Navigation */}
             {selectedCategory === 'hpl' && (
-                <div className="container mx-auto px-6 xl:px-16 2xl:px-2 -mt-8 flex flex-col md:flex-row justify-start items-start gap-2 xl:gap-6 py-6 rounded-xl border border-gray-100 animate-fadeIn">
+                <div className="container mx-auto px-6 xl:px-16 2xl:px-2 -mt-8 flex flex-col md:flex-row justify-start items-start gap-2 xl:gap-6 py-6 animate-fadeIn">
                         {hplStructure.map((group) => (
                             <div key={group.id} className="w-full md:w-auto flex flex-col items-center md:items-start min-w-[100px]">
                                 <button 
                                     onClick={() => toggleDropdown(group.id)}
-                                    className="cursor-pointer border border-primary py-2 px-6 rounded-full flex items-center justify-between w-full md:w-auto gap-2 text-sm font-semibold uppercase tracking-wider text-gray-800 hover:text-primary mb-3 transition-colors p-2 hover:bg-gray-50"
+                                    className="cursor-pointer border border-primary py-2 px-6 rounded-full flex items-center justify-between w-full md:w-auto gap-2 text-sm font-semibold uppercase tracking-wider text-gray-800 mb-3 transition-colors p-2 hover:bg-primary hover:text-white"
                                 >
                                     {group.name}
-                                    {openDropdown === group.id ? <BsChevronUp className="text-sm"/> : <BsChevronDown className="text-sm"/>}
+                                    {openDropdown === group.id ? <BsChevronUp className="text-sm" /> : <BsChevronDown className="text-sm"/>}
                                 </button>
                                 
                                 {/* Dropdown Items */}
@@ -250,7 +288,7 @@ const Product = () => {
                                                 key={sub}
                                                 onClick={(e) => handleHplSubClick(sub, e)}
                                                 className={`cursor-pointer text-sm text-left uppercase tracking-wide transition-all p-2 rounded hover:font-bold
-                                                    ${selectedSubcategory === sub ? 'text-primary font-bold' : ''}`}
+                                                    ${selectedSubcategory === sub ? 'text-primary font-bold bg-primary text-white rounded-full px-6 py-2' : ''}`}
                                             >
                                                 {sub === 'Pattern' ? 'Pattern Pattern' : sub}
                                             </button>
@@ -259,6 +297,54 @@ const Product = () => {
                                 )}
                             </div>
                         ))}
+                </div>
+            )}
+
+            {/* WPC Pool Deck Subcategory Navigation */}
+            {selectedCategory === 'wpc-pooldeck' && (
+                <div className="container mx-auto px-6 xl:px-16 2xl:px-2 -mt-8 flex flex-wrap justify-start items-center gap-2 xl:gap-4 py-6 animate-fadeIn">
+                    {poolDeckStructure.map((item) => (
+                        <button
+                            key={item.id}
+                            onClick={(e) => handleSubCategoryClick(item.folderName, 'wpc-pooldeck', e)}
+                            className={`mb-3 cursor-pointer border py-2 px-6 rounded-full text-sm font-semibold uppercase tracking-wider transition-colors p-2 hover:bg-primary hover:text-white
+                                ${selectedSubcategory === item.folderName ? 'bg-primary text-white border-primary' : 'border-primary text-gray-800 hover:text-primary'}`}
+                        >
+                            {item.name}
+                        </button>
+                    ))}
+                </div>
+            )}
+
+            {/* WPC Wall Panel Subcategory Navigation */}
+            {selectedCategory === 'wpc-wallpanel' && (
+                <div className="container mx-auto px-6 xl:px-16 2xl:px-2 -mt-8 flex flex-wrap justify-start items-center gap-2 xl:gap-4 py-6 animate-fadeIn">
+                    {wallPanelStructure.map((item) => (
+                        <button
+                            key={item.id}
+                            onClick={(e) => handleSubCategoryClick(item.folderName, 'wpc-wallpanel', e)}
+                            className={`mb-3 cursor-pointer border py-2 px-6 rounded-full text-sm font-semibold uppercase tracking-wider transition-colors p-2 hover:bg-primary hover:text-white
+                                ${selectedSubcategory === item.folderName ? 'bg-primary text-white border-primary' : 'border-primary text-gray-800 hover:text-primary'}`}
+                        >
+                            {item.name}
+                        </button>
+                    ))}
+                </div>
+            )}
+
+            {/* Flooring Subcategory Navigation */}
+            {selectedCategory === 'flooring' && (
+                <div className="container mx-auto px-6 xl:px-16 2xl:px-2 -mt-8 flex flex-wrap justify-start items-center gap-2 xl:gap-4 py-6 animate-fadeIn">
+                    {flooringStructure.map((item) => (
+                        <button
+                            key={item.id}
+                            onClick={(e) => handleSubCategoryClick(item.folderName, 'flooring', e)}
+                            className={`mb-3 cursor-pointer border py-2 px-6 rounded-full text-sm font-semibold uppercase tracking-wider transition-colors p-2 hover:bg-primary hover:text-white
+                                ${selectedSubcategory === item.folderName ? 'bg-primary text-white border-primary' : 'border-primary text-gray-800 hover:text-primary'}`}
+                        >
+                            {item.name}
+                        </button>
+                    ))}
                 </div>
             )}
 

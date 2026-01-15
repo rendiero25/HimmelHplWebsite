@@ -3290,177 +3290,333 @@
       }
     ]
   },
-  
+
   {
     "id": 4,
-    "kategori-produk": "spc-flooring",
+    "kategori-produk": "flooring",
     "data-produk": [
       {
-        "id-produk": "z2311don6",
-        "nama-produk": "SPCM001 OAK",
-        "kode-produk": "SPCM001",
-        "image-produk": "/data/spc-flooring/SPCM001 OAK.jpeg",
-        "description": "-"
+        "name": "spc-flooring",
+        "type": "folder",
+        "children": [
+          {
+            "id-produk": "z2311don6",
+            "nama-produk": "SPCM001 OAK",
+            "kode-produk": "SPCM001",
+            "image-produk": "/data/flooring/spc-flooring/SPCM001 OAK.jpeg",
+            "description": "-"
+          },
+          {
+            "id-produk": "idd2nx8ow",
+            "nama-produk": "SPCM026 WHITE OAK",
+            "kode-produk": "SPCM026",
+            "image-produk": "/data/flooring/spc-flooring/SPCM026 WHITE OAK.jpeg",
+            "description": "-"
+          },
+          {
+            "id-produk": "tpjxxg6w3",
+            "nama-produk": "SPCM039 DARK CHERRY",
+            "kode-produk": "SPCM039",
+            "image-produk": "/data/flooring/spc-flooring/SPCM039 DARK CHERRY.jpeg",
+            "description": "-"
+          },
+          {
+            "id-produk": "ykdd2704a",
+            "nama-produk": "SPCM052 PINE",
+            "kode-produk": "SPCM052",
+            "image-produk": "/data/flooring/spc-flooring/SPCM052 PINE.jpeg",
+            "description": "-"
+          },
+          {
+            "id-produk": "fwx9q7hk5",
+            "nama-produk": "SPCM054 TEAKWOOD",
+            "kode-produk": "SPCM054",
+            "image-produk": "/data/flooring/spc-flooring/SPCM054 TEAKWOOD.jpeg",
+            "description": "-"
+          },
+          {
+            "id-produk": "93excelfw",
+            "nama-produk": "SPCM247 WALNUT",
+            "kode-produk": "SPCM247",
+            "image-produk": "/data/flooring/spc-flooring/SPCM247 WALNUT.jpeg",
+            "description": "-"
+          }
+        ]
       },
+
       {
-        "id-produk": "idd2nx8ow",
-        "nama-produk": "SPCM026 WHITE OAK",
-        "kode-produk": "SPCM026",
-        "image-produk": "/data/spc-flooring/SPCM026 WHITE OAK.jpeg",
-        "description": "-"
+        "name": "solid-woodflooring",
+        "type": "folder",
+        "children": [
+          {
+            "id-produk": "z2311don6",
+            "nama-produk": "Akasia",
+            "kode-produk": "Akasia",
+            "image-produk": "/data/flooring/solidwood-flooring/Akasia.jpeg",
+            "description": "-"
+          },
+          {
+            "id-produk": "idd2nx8ow",
+            "nama-produk": "Bingkirai",
+            "kode-produk": "Bingkirai",
+            "image-produk": "/data/flooring/solidwood-flooring/Bingkirai.jpeg",
+            "description": "-"
+          },
+          {
+            "id-produk": "tpjxxg6w3",
+            "nama-produk": "Jati (Teakwood)",
+            "kode-produk": "Jatiteakwood",
+            "image-produk": "/data/flooring/solidwood-flooring/Jatiteakwood.jpeg",
+            "description": "-"
+          },
+          {
+            "id-produk": "ykdd2704a",
+            "nama-produk": "Mahogani",
+            "kode-produk": "Mahogani",
+            "image-produk": "/data/flooring/solidwood-flooring/Mahogani.jpeg",
+            "description": "-"
+          },
+          {
+            "id-produk": "fwx9q7hk5",
+            "nama-produk": "Merbau",
+            "kode-produk": "Merbau",
+            "image-produk": "/data/flooring/solidwood-flooring/Merbau.jpeg",
+            "description": "-"
+          },
+          {
+            "id-produk": "93excelfw",
+            "nama-produk": "Oakwood",
+            "kode-produk": "Oakwood",
+            "image-produk": "/data/flooring/solidwood-flooring/Oakwood.jpeg",
+            "description": "-"
+          }
+        ]
       },
+
       {
-        "id-produk": "tpjxxg6w3",
-        "nama-produk": "SPCM039 DARK CHERRY",
-        "kode-produk": "SPCM039",
-        "image-produk": "/data/spc-flooring/SPCM039 DARK CHERRY.jpeg",
-        "description": "-"
-      },
-      {
-        "id-produk": "ykdd2704a",
-        "nama-produk": "SPCM052 PINE",
-        "kode-produk": "SPCM052",
-        "image-produk": "/data/spc-flooring/SPCM052 PINE.jpeg",
-        "description": "-"
-      },
-      {
-        "id-produk": "fwx9q7hk5",
-        "nama-produk": "SPCM054 TEAKWOOD",
-        "kode-produk": "SPCM054",
-        "image-produk": "/data/spc-flooring/SPCM054 TEAKWOOD.jpeg",
-        "description": "-"
-      },
-      {
-        "id-produk": "93excelfw",
-        "nama-produk": "SPCM247 WALNUT",
-        "kode-produk": "SPCM247",
-        "image-produk": "/data/spc-flooring/SPCM247 WALNUT.jpeg",
-        "description": "-"
+        "name": "vinyl-flooring",
+        "type": "folder",
+        "children": [
+          {
+            "id-produk": "3nd6nis35",
+            "nama-produk": "HV6006 Classic Legno",
+            "kode-produk": "HV6006",
+            "image-produk": "/data/flooring/vinyl-flooring/HV6006 Classic Legno.jfif",
+            "description": "-"
+          },
+          {
+            "id-produk": "otb7k6rz1",
+            "nama-produk": "HV6110 White Oak",
+            "kode-produk": "HV6110",
+            "image-produk": "/data/flooring/vinyl-flooring/HV6110 White Oak.jfif",
+            "description": "-"
+          },
+          {
+            "id-produk": "6reux8lrg",
+            "nama-produk": "HV6140 Maple",
+            "kode-produk": "HV6140",
+            "image-produk": "/data/flooring/vinyl-flooring/HV6140 Maple.jfif",
+            "description": "-"
+          }
+        ]
       }
     ]
   },
 
   {
     "id": 5,
-    "kategori-produk": "vinyl-flooring",
+    "kategori-produk": "wpc-pooldeck",
     "data-produk": [
       {
-        "id-produk": "3nd6nis35",
-        "nama-produk": "HV6006 Classic Legno",
-        "kode-produk": "HV6006",
-        "image-produk": "/data/vinyl-flooring/HV6006 Classic Legno.jfif",
-        "description": "-"
+        "name": "wpc-pooldeck",
+        "type": "folder",
+        "children": [
+          {
+            "id-produk": "sgfq3tust",
+            "nama-produk": "Decking Black Ulin",
+            "kode-produk": "Decking",
+            "image-produk": "/data/wpc-pooldeck/wpc-pooldeck/Decking Black Ulin.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "1hsy8h0if",
+            "nama-produk": "Decking Brown Walnut",
+            "kode-produk": "Decking",
+            "image-produk": "/data/wpc-pooldeck/wpc-pooldeck/Decking Brown Walnut.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "n81kjqlt4",
+            "nama-produk": "Decking Red Bingkirai",
+            "kode-produk": "Decking",
+            "image-produk": "/data/wpc-pooldeck/wpc-pooldeck/Decking Red Bingkirai.jpg",
+            "description": "-"
+          }
+        ]
       },
       {
-        "id-produk": "otb7k6rz1",
-        "nama-produk": "HV6110 White Oak",
-        "kode-produk": "HV6110",
-        "image-produk": "/data/vinyl-flooring/HV6110 White Oak.jfif",
-        "description": "-"
-      },
-      {
-        "id-produk": "6reux8lrg",
-        "nama-produk": "HV6140 Maple",
-        "kode-produk": "HV6140",
-        "image-produk": "/data/vinyl-flooring/HV6140 Maple.jfif",
-        "description": "-"
+        "name": "solidwood-pooldeck",
+        "type": "folder",
+        "children": [
+          {
+            "id-produk": "sgfq3tust",
+            "nama-produk": "Decking Black Ulin",
+            "kode-produk": "Decking",
+            "image-produk": "/data/wpc-pooldeck/solidwood-pooldeck/Decking Black Ulin.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "1hsy8h0if",
+            "nama-produk": "Decking Brown Walnut",
+            "kode-produk": "Decking",
+            "image-produk": "/data/wpc-pooldeck/solidwood-pooldeck/Decking Brown Walnut.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "n81kjqlt4",
+            "nama-produk": "Decking Red Bingkirai",
+            "kode-produk": "Decking",
+            "image-produk": "/data/wpc-pooldeck/solidwood-pooldeck/Decking Red Bingkirai.jpg",
+            "description": "-"
+          }
+        ]
       }
     ]
   },
 
   {
     "id": 6,
-    "kategori-produk": "wpc-pooldeck",
+    "kategori-produk": "wpc-wallpanel",
     "data-produk": [
       {
-        "id-produk": "sgfq3tust",
-        "nama-produk": "Decking Black Ulin",
-        "kode-produk": "Decking",
-        "image-produk": "/data/wpc-pooldeck/Decking Black Ulin.jpg",
-        "description": "-"
+        "name": "wpc-wallpanel",
+        "type": "folder",
+        "children": [
+          {
+            "id-produk": "5rpe43kwi",
+            "nama-produk": "Apple Tree WPC",
+            "kode-produk": "HCHT",
+            "image-produk": "/data/wpc-wallpanel/wpc-wallpanel/Apple-Tree/Apple Tree WPC.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "br2plgcje",
+            "nama-produk": "Chery WPC",
+            "kode-produk": "JSYT",
+            "image-produk": "/data/wpc-wallpanel/wpc-wallpanel/Chery/Chery WPC.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "mjqrx44io",
+            "nama-produk": "Chestnut WPC",
+            "kode-produk": "JDHT",
+            "image-produk": "/data/wpc-wallpanel/wpc-wallpanel/Chestnut/Chestnut WPC.jpeg",
+            "description": "-"
+          },
+          {
+            "id-produk": "6ia917qx0",
+            "nama-produk": "Elm WPC",
+            "kode-produk": "YM",
+            "image-produk": "/data/wpc-wallpanel/wpc-wallpanel/Elm/Elm WPC.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "tklj0wria",
+            "nama-produk": "PINE Wpc",
+            "kode-produk": "YMHTI",
+            "image-produk": "/data/wpc-wallpanel/wpc-wallpanel/Pine/PINE Wpc.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "gzl1o9xs5",
+            "nama-produk": "Sungkai WPC",
+            "kode-produk": "TSM",
+            "image-produk": "/data/wpc-wallpanel/wpc-wallpanel/Sungkai/Sungkai WPC.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "dj0dfo38y",
+            "nama-produk": "Teak Wood WPC",
+            "kode-produk": "ZWYM",
+            "image-produk": "/data/wpc-wallpanel/wpc-wallpanel/Teak-Wood/Teak Wood WPC.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "z1z5fyaai",
+            "nama-produk": "Walnut WPC",
+            "kode-produk": "ZSHT",
+            "image-produk": "/data/wpc-wallpanel/wpc-wallpanel/Walnuts/Walnut WPC.jpg",
+            "description": "-"
+          }
+        ]
       },
       {
-        "id-produk": "1hsy8h0if",
-        "nama-produk": "Decking Brown Walnut",
-        "kode-produk": "Decking",
-        "image-produk": "/data/wpc-pooldeck/Decking Brown Walnut.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "n81kjqlt4",
-        "nama-produk": "Decking Red Bingkirai",
-        "kode-produk": "Decking",
-        "image-produk": "/data/wpc-pooldeck/Decking Red Bingkirai.jpg",
-        "description": "-"
+        "name": "solidwood-wallpanel",
+        "type": "folder",
+        "children": [
+          {
+            "id-produk": "5rpe43kwi",
+            "nama-produk": "Apple Tree WPC",
+            "kode-produk": "HCHT",
+            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Apple-Tree/Apple Tree WPC.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "br2plgcje",
+            "nama-produk": "Chery WPC",
+            "kode-produk": "JSYT",
+            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Chery/Chery WPC.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "mjqrx44io",
+            "nama-produk": "Chestnut WPC",
+            "kode-produk": "JDHT",
+            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Chestnut/Chestnut WPC.jpeg",
+            "description": "-"
+          },
+          {
+            "id-produk": "6ia917qx0",
+            "nama-produk": "Elm WPC",
+            "kode-produk": "YM",
+            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Elm/Elm WPC.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "tklj0wria",
+            "nama-produk": "PINE Wpc",
+            "kode-produk": "YMHTI",
+            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Pine/PINE Wpc.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "gzl1o9xs5",
+            "nama-produk": "Sungkai WPC",
+            "kode-produk": "TSM",
+            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Sungkai/Sungkai WPC.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "dj0dfo38y",
+            "nama-produk": "Teak Wood WPC",
+            "kode-produk": "ZWYM",
+            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Teak-Wood/Teak Wood WPC.jpg",
+            "description": "-"
+          },
+          {
+            "id-produk": "z1z5fyaai",
+            "nama-produk": "Walnut WPC",
+            "kode-produk": "ZSHT",
+            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Walnuts/Walnut WPC.jpg",
+            "description": "-"
+          }
+        ]
       }
     ]
   },
 
   {
     "id": 7,
-    "kategori-produk": "wpc-wallpanel",
-    "data-produk": [
-      {
-        "id-produk": "5rpe43kwi",
-        "nama-produk": "Apple Tree WPC",
-        "kode-produk": "Apple",
-        "image-produk": "/data/wpc-wallpanel/Apple-Tree/Apple Tree WPC.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "br2plgcje",
-        "nama-produk": "Chery WPC",
-        "kode-produk": "Chery",
-        "image-produk": "/data/wpc-wallpanel/Chery/Chery WPC.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "mjqrx44io",
-        "nama-produk": "Chestnut WPC",
-        "kode-produk": "Chestnut",
-        "image-produk": "/data/wpc-wallpanel/Chestnut/Chestnut WPC.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "6ia917qx0",
-        "nama-produk": "Elm WPC",
-        "kode-produk": "Elm",
-        "image-produk": "/data/wpc-wallpanel/Elm/Elm WPC.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "tklj0wria",
-        "nama-produk": "PINE Wpc",
-        "kode-produk": "PINE",
-        "image-produk": "/data/wpc-wallpanel/Pine/PINE Wpc.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "gzl1o9xs5",
-        "nama-produk": "Sungkai WPC",
-        "kode-produk": "Sungkai",
-        "image-produk": "/data/wpc-wallpanel/Sungkai/Sungkai WPC.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "dj0dfo38y",
-        "nama-produk": "Teak Wood WPC",
-        "kode-produk": "Teak",
-        "image-produk": "/data/wpc-wallpanel/Teak-Wood/Teak Wood WPC.jpg",
-        "description": "-"
-      },
-      {
-        "id-produk": "z1z5fyaai",
-        "nama-produk": "Walnut WPC",
-        "kode-produk": "Walnut",
-        "image-produk": "/data/wpc-wallpanel/Walnuts/Walnut WPC.jpg",
-        "description": "-"
-      }
-    ]
-  },
-
-  {
-    "id": 8,
     "kategori-produk": "uv-board",
     "data-produk": [
       {

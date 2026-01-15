@@ -77,7 +77,7 @@ const Home = () => {
              <div className="absolute left-[37%] top-0 bottom-0 w-[2px] bg-gradient-to-b from-third/0 to-third hidden md:block"></div>
              
              {/* Top Right Intro Text */}
-             <FadeIn delay={0.2} direction="down" className="hidden xl:flex flex-col absolute top-0 left-[52%]">
+             <FadeIn delay={0.2} direction="down" className="hidden xl:flex flex-col absolute top-0 left-[52%] 2xl:mt-10">
                 <h3 className="font-primary font-medium text-black text-3xl leading-tight mb-4">
                   Your <br/>
                   Partner In <br/>
