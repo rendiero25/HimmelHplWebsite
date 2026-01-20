@@ -30,6 +30,7 @@ import spcFlooringImg from '../assets/home/spcflooring-image.png';
 import vinylFlooringImg from '../assets/home/vinylflooring-image.png';
 import edgingPvcImg from '../assets/home/edgingpvc-image.png';
 import wpcWallPanelImg from '../assets/home/wpcwallpanel-image.png';
+import uvBoardImg from '../assets/home/uvboard-image.webp';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -217,6 +218,37 @@ const Home = () => {
            </div>
          </FadeIn>
 
+          <FadeIn delay={0.6} direction="up" className="h-full w-full">
+              <div
+                  onClick={() => navigate('/product?category=edging-pvc')}
+                  className="relative group overflow-hidden h-100 md:h-150 cursor-pointer w-full"
+              >
+                  <img src={edgingPvcImg} alt="Edging PVC" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                  <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
+                  <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+                      <h3 className="font-bold text-3xl mb-2 leading-relaxed">Edging PVC</h3>
+                      <p className="text-md max-w-sm leading-relaxed">Salah satu produk pelapis sekaligus
+                          pelindung sisi samping sebuah furnitur meja, lemari, maupun backdrop</p>
+                  </div>
+              </div>
+          </FadeIn>
+
+          {/* 5. SPC Flooring */}
+          <FadeIn delay={0.4} direction="up" className="h-full w-full">
+              <div
+                  onClick={() => navigate('/product?category=flooring')}
+                  className="relative group overflow-hidden h-100 md:h-150 cursor-pointer w-full"
+              >
+                  <img src={spcFlooringImg} alt="SPC Flooring" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                  <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
+                  <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+                      <h3 className="font-bold text-3xl mb-2 leading-relaxed">Flooring</h3>
+                      <p className="text-md max-w-sm leading-relaxed">Tipe material lantai, berbahan utama
+                          stone polymer composite (SPC) </p>
+                  </div>
+              </div>
+          </FadeIn>
+
          {/* 4. WPC Pool Deck */}
          <FadeIn delay={0.3} direction="up" className="h-full w-full">
             <div 
@@ -233,56 +265,8 @@ const Home = () => {
             </div>
          </FadeIn>
 
-         {/* 5. SPC Flooring */}
-         <FadeIn delay={0.4} direction="up" className="h-full w-full">
-            <div 
-               onClick={() => navigate('/product?category=spc-flooring')}
-               className="relative group overflow-hidden h-100 md:h-150 cursor-pointer w-full"
-            >
-               <img src={spcFlooringImg} alt="SPC Flooring" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-               <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
-                  <h3 className="font-bold text-3xl mb-2 leading-relaxed">SPC Flooring</h3>
-                  <p className="text-md max-w-sm leading-relaxed">Tipe material lantai, berbahan utama
-                     stone polymer composite (SPC) </p>
-               </div>
-            </div>
-         </FadeIn>
-
-         {/* 6. Vinyl Flooring */}
-         <FadeIn delay={0.5} direction="up" className="h-full w-full">
-            <div 
-               onClick={() => navigate('/product?category=vinyl-flooring')}
-               className="relative group overflow-hidden h-100 md:h-150 cursor-pointer w-full"
-            >
-               <img src={vinylFlooringImg} alt="Vinyl Flooring" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-               <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
-                  <h3 className="font-bold text-3xl mb-2 leading-relaxed">Vinyl Flooring</h3>
-                  <p className="text-md max-w-sm leading-relaxed">Jenis lantai yang terbuat dari plastik polivinyl 
-                  klorida (PVC) yang dicampur dengan bahan-bahan lain seperti plastikizer, pigmen, dan stablizer</p>
-               </div>
-            </div>
-         </FadeIn>
-
-           {/* 7. Edging PVC */}
-         <FadeIn delay={0.6} direction="up" className="h-full w-full">
-            <div 
-               onClick={() => navigate('/product?category=edging-pvc')}
-               className="relative group overflow-hidden h-100 md:h-150 cursor-pointer w-full"
-            >
-               <img src={edgingPvcImg} alt="Edging PVC" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
-               <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
-                  <h3 className="font-bold text-3xl mb-2 leading-relaxed">Edging PVC</h3>
-                  <p className="text-md max-w-sm leading-relaxed">Salah satu produk pelapis sekaligus
-                  pelindung sisi samping sebuah furnitur meja, lemari, maupun backdrop</p>
-               </div>
-            </div>
-         </FadeIn>
-
            {/* 8. WPC Wall Panel */}
-         <FadeIn delay={0.7} direction="up" className="h-full w-full xl:col-span-2 lg:col-span-2">
+         <FadeIn delay={0.7} direction="up" className="h-full w-full">
             <div 
                onClick={() => navigate('/product?category=wpc-wallpanel')}
                className="relative group overflow-hidden h-100 md:h-150 cursor-pointer w-full"
@@ -296,6 +280,22 @@ const Home = () => {
                </div>
             </div>
          </FadeIn>
+
+
+          {/* 6. UV board */}
+          <FadeIn delay={0.5} direction="up" className="h-full w-full xl:col-span-2 lg:col-span-2">
+             <div
+                onClick={() => navigate('/product?category=uv-board')}
+                className="relative group overflow-hidden h-100 md:h-150 cursor-pointer w-full"
+             >
+                <img src={uvBoardImg} alt="Vinyl Flooring" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
+                <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
+                   <h3 className="font-bold text-3xl mb-2 leading-relaxed">UV Board</h3>
+                   <p className="text-md max-w-sm leading-relaxed">panel dekoratif modern dari bahan PVC atau MDF yang permukaannya dilapisi cat khusus lalu dikeringkan dengan sinar Ultraviolet (UV)</p>
+                </div>
+             </div>
+          </FadeIn>
 
       </StaggerContainer>
 
