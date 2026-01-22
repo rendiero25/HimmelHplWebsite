@@ -73,11 +73,22 @@ const Product = () => {
         }
 
         // WPC Pool Deck, WPC Wall Panel, Flooring subcategory filtering
+        // Use path matching that checks if the subcategory folder is in the path after category
         if ((selectedCategory === 'wpc-pooldeck' || selectedCategory === 'wpc-wallpanel' || selectedCategory === 'flooring') && selectedSubcategory) {
             products = products.filter(p => {
-                return p['image-produk'].includes(`/${selectedSubcategory}/`);
+                // Match paths that contain the subcategory folder after the category folder
+                // Examples: 
+                // - /data/wpc-pooldeck/wpc-pooldeck/filename.jpg -> matches 'wpc-pooldeck'
+                // - /data/wpc-wallpanel/wpc-wallpanel/Apple-Tree/filename.jpg -> matches 'wpc-wallpanel'
+                // - /data/wpc-wallpanel/solidwood-wallpanel/Apple-Tree/filename.jpg -> matches 'solidwood-wallpanel'
+                const pathParts = p['image-produk'].split('/');
+                // pathParts[3] is the subfolder right after the category (index 2 is category)
+                // e.g., ['', 'data', 'wpc-pooldeck', 'wpc-pooldeck', 'filename.jpg']
+                // e.g., ['', 'data', 'wpc-wallpanel', 'wpc-wallpanel', 'Apple-Tree', 'filename.jpg']
+                return pathParts[3] === selectedSubcategory;
             });
         }
+
 
         // Only apply search filter if searchQuery is not empty
         const trimmedSearch = searchQuery.trim().toLowerCase();
@@ -350,7 +361,7 @@ const Product = () => {
 
             {/* Product Grid */}
             <div className="container mx-auto px-6 xl:px-16 2xl:px-2 mb-16">
-                <StaggerContainer key={selectedCategory + currentPage} className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-8">
+                <StaggerContainer key={selectedCategory + currentPage + (selectedSubcategory || '')} className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-8">
                     {paginatedProducts.map((product, idx) => {
                         const itemVariants = {
                             hidden: { opacity: 0, y: 20 },
@@ -364,8 +375,8 @@ const Product = () => {
                                 className="flex flex-col items-center cursor-pointer group" 
                                 onClick={() => openModal(product)}
                             >
-                                <div className="w-full aspect-[3/4] overflow-hidden mb-3 bg-gray-200 relative">
-                                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors z-10 transition-colors duration-300"></div>
+                                <div className="w-full aspect-3/4 overflow-hidden mb-3 bg-gray-200 relative">
+                                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors z-10 duration-300"></div>
                                     <img 
                                         src={product['image-produk']} 
                                         alt={product['nama-produk']} 
