@@ -3546,64 +3546,7 @@
       {
         "name": "solidwood-wallpanel",
         "type": "folder",
-        "children": [
-          {
-            "id-produk": "5rpe43kwi",
-            "nama-produk": "Apple Tree WPC",
-            "kode-produk": "HCHT",
-            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Apple-Tree/Apple Tree WPC.jpg",
-            "description": "-"
-          },
-          {
-            "id-produk": "br2plgcje",
-            "nama-produk": "Chery WPC",
-            "kode-produk": "JSYT",
-            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Chery/Chery WPC.jpg",
-            "description": "-"
-          },
-          {
-            "id-produk": "mjqrx44io",
-            "nama-produk": "Chestnut WPC",
-            "kode-produk": "JDHT",
-            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Chestnut/Chestnut WPC.jpeg",
-            "description": "-"
-          },
-          {
-            "id-produk": "6ia917qx0",
-            "nama-produk": "Elm WPC",
-            "kode-produk": "YM",
-            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Elm/Elm WPC.jpg",
-            "description": "-"
-          },
-          {
-            "id-produk": "tklj0wria",
-            "nama-produk": "PINE Wpc",
-            "kode-produk": "YMHTI",
-            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Pine/PINE Wpc.jpg",
-            "description": "-"
-          },
-          {
-            "id-produk": "gzl1o9xs5",
-            "nama-produk": "Sungkai WPC",
-            "kode-produk": "TSM",
-            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Sungkai/Sungkai WPC.jpg",
-            "description": "-"
-          },
-          {
-            "id-produk": "dj0dfo38y",
-            "nama-produk": "Teak Wood WPC",
-            "kode-produk": "ZWYM",
-            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Teak-Wood/Teak Wood WPC.jpg",
-            "description": "-"
-          },
-          {
-            "id-produk": "z1z5fyaai",
-            "nama-produk": "Walnut WPC",
-            "kode-produk": "ZSHT",
-            "image-produk": "/data/wpc-wallpanel/solidwood-wallpanel/Walnuts/Walnut WPC.jpg",
-            "description": "-"
-          }
-        ]
+        "children": []
       }
     ]
   },
