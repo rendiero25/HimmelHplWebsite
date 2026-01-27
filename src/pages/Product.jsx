@@ -135,7 +135,7 @@ const Product = () => {
             'uv-board': 'UV Board',
             'edging-pvc': 'Edging PVC',
             'pvc-board': 'PVC Board',
-            'wpc-pooldeck': 'WPC Pool Deck',
+            'wpc-pooldeck': 'Pool Deck',
             'flooring': 'Flooring',
             'wpc-wallpanel': 'WPC Wall Panel'
         };
@@ -189,7 +189,7 @@ const Product = () => {
     // WPC Wall Panel Subcategory Structure
     const wallPanelStructure = [
         { name: 'WPC Wall Panel', id: 'wpc-wallpanel-sub', folderName: 'wpc-wallpanel' },
-        { name: 'Solid Wood Wall Panel', id: 'solidwood-wallpanel', folderName: 'solidwood-wallpanel' }
+        // { name: 'Solid Wood Wall Panel', id: 'solidwood-wallpanel', folderName: 'solidwood-wallpanel' }
     ];
 
     // Flooring Subcategory Structure

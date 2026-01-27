@@ -3357,8 +3357,8 @@
           },
           {
             "id-produk": "idd2nx8ow",
-            "nama-produk": "Bingkirai",
-            "kode-produk": "Bingkirai",
+            "nama-produk": "Bengkirai",
+            "kode-produk": "Bengkirai",
             "image-produk": "/data/flooring/solidwood-flooring/Bingkirai.jpeg",
             "description": "-"
           },
@@ -3385,9 +3385,16 @@
           },
           {
             "id-produk": "93excelfw",
-            "nama-produk": "Oakwood",
-            "kode-produk": "Oakwood",
+            "nama-produk": "Oakwood Smoke",
+            "kode-produk": "Oakwood Smoke",
             "image-produk": "/data/flooring/solidwood-flooring/Oakwood.jpeg",
+            "description": "-"
+          },
+          {
+            "id-produk": "93excelfw",
+            "nama-produk": "Oakwood Natural",
+            "kode-produk": "Oakwood Natural",
+            "image-produk": "/data/flooring/solidwood-flooring/Oakwood-Natural.jpeg",
             "description": "-"
           }
         ]
@@ -3447,7 +3454,7 @@
           },
           {
             "id-produk": "n81kjqlt4",
-            "nama-produk": "Decking Red Bingkirai",
+            "nama-produk": "Decking Red Bengkirai",
             "kode-produk": "Decking",
             "image-produk": "/data/wpc-pooldeck/wpc-pooldeck/Decking Red Bingkirai.jpg",
             "description": "-"
@@ -3462,12 +3469,12 @@
             "id-produk": "sgfq3tust",
             "nama-produk": "Ulin",
             "kode-produk": "Decking",
-            "image-produk": "/data/wpc-pooldeck/solidwood-pooldeck/Ulin.jpg",
+            "image-produk": "/data/wpc-pooldeck/solidwood-pooldeck/Ulin.jpeg",
             "description": "-"
           },
           {
             "id-produk": "n81kjqlt4",
-            "nama-produk": "Bingkirai",
+            "nama-produk": "Bengkirai",
             "kode-produk": "Decking",
             "image-produk": "/data/wpc-pooldeck/solidwood-pooldeck/Bingkirai.jpg",
             "description": "-"
@@ -3542,11 +3549,6 @@
             "description": "-"
           }
         ]
-      },
-      {
-        "name": "solidwood-wallpanel",
-        "type": "folder",
-        "children": []
       }
     ]
   },
