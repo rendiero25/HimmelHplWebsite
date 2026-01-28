@@ -258,7 +258,7 @@ const Home = () => {
                <img src={wpcPoolDeckImg} alt="WPC Pool Deck" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
                <div className="px-6 xl:px-0 absolute text-center text-white h-full w-full flex flex-col justify-center items-center">
-                  <h3 className="font-bold text-3xl mb-2 leading-relaxed">WPC Pool Deck</h3>
+                  <h3 className="font-bold text-3xl mb-2 leading-relaxed">Pool Deck</h3>
                   <p className="text-md max-w-sm leading-relaxed">Inovasi baru yang menjadi solusi ideal
                      pengganti solid wood decking</p>
                </div>
